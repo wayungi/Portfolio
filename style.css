@@ -15,3 +15,12 @@ div {
   min-width: 375px;
   outline: 1px solid black;
 }
+
+/* logo place holder */
+.logo-placeholder{
+  width: 100px;
+  height: 40px;
+  font-size:18px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+}
