@@ -89,12 +89,15 @@ div {
   margin: 0 24px;
   color: #7f8cff;
   font-weight: 500;
-  margin-top: 12px;
   text-decoration: none;
 }
 
 a.connect {
   padding: 5px;
+  border: 1px solid #7F8CFF;
+  border-radius: 8px;
+  padding: 12px;
+  display:inline-block;
 }
 
 a.connect:hover {
