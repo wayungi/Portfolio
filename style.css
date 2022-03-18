@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins_small:wght@100&display=swap');
+
 html,
 body,
 div {
@@ -66,10 +69,11 @@ div {
   margin: 0 24px;
   min-width: 327px;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins_small', sans-serif;
+  color: #344563;
 }
 
 .welcome-note h3 {
