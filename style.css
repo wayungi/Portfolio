@@ -33,7 +33,7 @@ div {
   box-sizing: border-box;
 }
 
-.logo-placeholder p{
+.logo-placeholder p {
   font-weight: bold;
 }
 
@@ -84,12 +84,26 @@ div {
   color: #344563;
 }
 
-.welcome-note h3 {
+.welcome-note a {
   font-family: 'Poppins', sans-serif;
   margin: 0 24px;
   color: #7f8cff;
   font-weight: 500;
   margin-top: 12px;
+  text-decoration: none;
+}
+
+a.connect {
+  padding: 5px;
+}
+
+a.connect:hover {
+  /* outline:1px solid blue; */
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .social {
