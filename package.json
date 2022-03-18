@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wayungi/Portfolio/issues"
   },
-  "homepage": "https://github.com/wayungi/Portfolio#readme"
+  "homepage": "https://github.com/wayungi/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
 }
