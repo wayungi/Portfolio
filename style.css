@@ -51,6 +51,7 @@ div {
   background-image: url('images/intro-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top:120px;
 }
 
 .welcome-note h2 {
