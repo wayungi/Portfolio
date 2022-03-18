@@ -43,7 +43,6 @@ div {
 }
 
 .introduction {
-  outline: 1px solid red;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -76,4 +75,18 @@ div {
   font-family: 'Poppins', sans-serif;
   margin: 0 24px;
   color: #6070ff;
+}
+
+.social{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 24px;
+  margin-bottom:100px;
+  align-items: baseline;
+}
+
+.social img{
+  margin-right: 20px;
+  cursor: pointer;
 }
