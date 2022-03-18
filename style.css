@@ -93,15 +93,16 @@ div {
 }
 
 a.connect {
-  padding: 5px;
-  border: 1px solid #7F8CFF;
+  /* padding: 5px; */
+  /* border: 1px solid #7F8CFF; */
   border-radius: 8px;
-  padding: 12px;
+  padding: 12px 0;
   display:inline-block;
 }
 
 a.connect:hover {
   color: #fff;
+  padding: 12px;
   border-radius: 8px;
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -109,28 +110,62 @@ a.connect:hover {
 
 a.connect:active{
   background: #2230D2;
+  padding: 12px;
 }
 
-.social {
+ul,
+li {
+  margin:0;
+  padding:0;
+}
+
+ul {
+  /* outline:1px solid black; */
+  display:flex;
+  margin-top:12px;
+  /* margin-left:24px; */
+  /* align-items:baseline */
+}
+
+li{
+  /* outline:1px solid red; */
+  list-style: none;
+  width:50px;
+  display:flex;
+}
+
+.social a{
+  /* outline:1px solid pink; */
+  display:inline-block;
+}
+
+
+/* ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+} */
+
+
+/* .social {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 14px 24px;
   margin-bottom: 50px;
   align-items: baseline;
-}
 
-ul,
-li {
-  margin: 0;
-  padding: 0;
+  outline:1px solid black;
 }
 
 .social li {
   list-style: none;
+  outline:1px solid red;
+  width: 50px;
 }
 
 .social img {
   margin-right: 20px;
   cursor: pointer;
-}
+} */
