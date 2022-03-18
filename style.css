@@ -20,21 +20,13 @@ div {
 .logo-placeholder {
   display: flex;
   align-items: center;
-
-  /* width: 100px; */
   height: 40px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   color: #6070ff;
-  outline: 1px solid black;
   margin-left: 12px;
   padding: 0 12px;
   box-sizing: border-box;
-}
-
-.logo {
-  outline: 1px solid red;
-  background-color: red;
 }
 
 .main-nav {
