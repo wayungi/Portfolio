@@ -18,9 +18,21 @@ div {
 
 /* logo place holder */
 .logo-placeholder{
-  width: 100px;
+  display: flex;
+  align-items: center;
+  /* width: 100px; */
   height: 40px;
-  font-size:18px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
+  color: #6070FF;
+  outline: 1px solid black;
+  margin-left:12px;
+  padding:0 12px;
+  box-sizing: border-box;
+
+}
+
+.logo{
+  outline:1px solid red;
+  background-color: red;
 }
