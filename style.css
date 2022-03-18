@@ -41,3 +41,16 @@ div {
   background-position: center;
   cursor: pointer;
 }
+
+.introduction {
+  outline: 1px solid red;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('images/intro-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
