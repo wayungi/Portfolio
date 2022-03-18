@@ -36,3 +36,17 @@ div {
   outline: 1px solid red;
   background-color: red;
 }
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  outline: 1px solid blue;
+  height: 40px;
+  width: 40px;
+  margin-right: 24px;
+  background-image: url('images/icon-menu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
