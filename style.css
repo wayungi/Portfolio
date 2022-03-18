@@ -1,3 +1,10 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
 .header-section {
   display: flex;
   flex-direction: row;
@@ -5,4 +12,5 @@
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  outline: 1px solid black;
 }
