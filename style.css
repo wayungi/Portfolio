@@ -12,5 +12,6 @@ div {
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  min-width: 375px;
   outline: 1px solid black;
 }
