@@ -32,7 +32,7 @@ div {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
   height: 40px;
   width: 40px;
   margin-right: 24px;
