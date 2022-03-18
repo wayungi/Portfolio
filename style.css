@@ -33,6 +33,16 @@ div {
   font-weight: bold;
 }
 
+a.logo {
+  text-decoration: none;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .main-nav {
   display: flex;
   flex-direction: row;
