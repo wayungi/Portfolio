@@ -16,8 +16,6 @@ p {
   margin:25px auto;
   display:flex;
   flex-direction: column;
-  
-  
 }
 
 .header-section {
@@ -29,7 +27,6 @@ p {
   align-content: center;
   height:48px;
   outline:1px solid green;
-  /* margin-bottom: 114px; */
 }
 
 .logo-placeholder {
@@ -89,25 +86,21 @@ a.logo {
   font-size: 40px;
   font-weight: 700;
   color: black;
-  /* margin: 0 24px; */
-  /* min-width: 327px; */
+  margin-bottom:12px;
+}
+
+.profile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 
 
 /*
 
-
-.profile {
-  margin: 12px 24px;
-  min-width: 327px;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: 'Poppins_small', sans-serif;
-  font-weight: 100;
-  color: #344563;
-}
 
 .welcome-note a, .about-me a {
   font-family: 'Poppins', sans-serif;
