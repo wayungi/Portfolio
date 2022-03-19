@@ -280,6 +280,10 @@ font-size: 20px;
 line-height: 24px;
 }
 
+.language-list li{
+  list-style: none;
+}
+
 
 
 
