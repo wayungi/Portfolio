@@ -80,7 +80,6 @@ a.logo {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: black;
   margin-bottom: 12px;
 }
 
@@ -260,18 +259,24 @@ button:active{
   margin-bottom:20px;
 }
 
+.about-me h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h1{
+  color: #172B4D;
+}
+
+
+
 
 /*
 
 
 
-.about-me h1 {
-  font-family: 'Poppins_small', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  outline:1px solid red;
-}
+
 
 .contact-form {
   background-image: url('images/contact_me.png');
