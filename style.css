@@ -6,15 +6,15 @@ div,
 ul,
 li,
 p {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-.page-wrapper{
-  outline:1px solid black;
-  width:375px;
-  margin:25px auto;
-  display:flex;
+.page-wrapper {
+  outline: 1px solid black;
+  width: 375px;
+  margin: 25px auto;
+  display: flex;
   flex-direction: column;
 }
 
@@ -25,7 +25,7 @@ p {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  height:48px;
+  height: 48px;
 }
 
 .logo-placeholder {
@@ -69,10 +69,11 @@ a.logo {
   justify-content: center;
   background-image: url('images/intro-bg.png');
   background-repeat: no-repeat;
-  background-size: fit;
+  background-size: contain;
   padding: 114px 24px 0 24px;
+
   /* outline:1px solid black; */
-  margin-bottom:114px;
+  margin-bottom: 114px;
 }
 
 .welcome-note h1 {
@@ -80,7 +81,7 @@ a.logo {
   font-size: 40px;
   font-weight: 700;
   color: black;
-  margin-bottom:12px;
+  margin-bottom: 12px;
 }
 
 .profile {
@@ -89,7 +90,7 @@ a.logo {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-bottom:12px;
+  margin-bottom: 12px;
 }
 
 a.connect {
@@ -98,34 +99,34 @@ a.connect {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
-  margin-bottom:12px;
+  color: #7f8cff;
+  margin-bottom: 12px;
   text-decoration: none;
 }
 
-a.connect:hover{
-  color:#6070FF
+a.connect:hover {
+  color: #6070ff;
 }
 
 a.connect:active {
-  color:#2230D2
+  color: #2230d2;
 }
 
-.social{
-  display:flex;
+.social {
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: baseline;
-  margin-bottom:70px;
+  margin-bottom: 70px;
 }
 
-.social>li{
+.social > li {
   list-style: none;
 }
 
-.social-links{
-  display:inline-block;
-  margin-right:20px;
+.social-links {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 /* work section styles */
@@ -143,11 +144,10 @@ a.connect:active {
   align-items: flex-start;
   border-radius: 16px;
   padding: 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  border-radius: 16px;
-  width:327px;
-  margin-bottom:88px;
+  width: 327px;
+  margin-bottom: 88px;
 }
 
 .card h1 {
@@ -155,7 +155,7 @@ a.connect:active {
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  margin:12px 0;
+  margin: 12px 0;
 }
 
 .card-1 {
@@ -174,10 +174,9 @@ a.connect:active {
   grid-row: 5/4;
 }
 
-
-.options{
-  outline:1px solid black;
-  display:flex;
+.options {
+  outline: 1px solid black;
+  display: flex;
   flex-direction: row;
 }
 
@@ -186,43 +185,50 @@ a.connect:active {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color:#344563;
+  color: #344563;
 }
 
-.role-year{
+.role-year {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color:#7A869A;
+  color: #7a869a;
 }
 
-.card p{
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-margin:12px 0;
+.card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
 }
 
+.language li {
+  list-style: none;
+  border: 1px solid #EBEBFF;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background-color: #EBEBFF;
+  color:#6070FF;
+  
+}
 
 /* re-usable classes */
-.font{
+.font {
   font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  
 }
 
 
 /*
 
-
-.card p, .about-me p{
-  font-family: 'Poppins_small', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 19px;
-  line-height: 30px;
-  margin-top: 20px;
-}
 
 button{
   margin:24px 0;
