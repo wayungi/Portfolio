@@ -50,11 +50,6 @@ a.logo {
   line-height: 20px;
 }
 
-/* re-usable classes */
-.font{
-  font-family: 'Poppins', sans-serif;
-}
-
 .main-nav {
   display: flex;
   flex-direction: row;
@@ -95,34 +90,35 @@ a.logo {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-bottom:12px;
 }
+
+
+/* re-usable classes */
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
+a.connect {
+  /* border-radius: 8px; */
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  margin-bottom:12px;
+  text-decoration: none;
+}
+
+
+
+
 
 
 
 /*
 
-
-.welcome-note a, .about-me a {
-  font-family: 'Poppins', sans-serif;
-  margin: 0 24px;
-  color: #7f8cff;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-a.connect {
-  border-radius: 8px;
-  padding: 12px 0;
-  display: inline-block;
-}
-
-a.connect:hover {
-  color: #fff;
-  padding: 12px;
-  border-radius: 8px;
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
 
 a.connect:active {
   background: #2230d2;
