@@ -16,18 +16,6 @@ p {
   margin:25px auto;
 }
 
-/* html,
-body,
-div {
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper{
-  width:375px;
-  outline:1px solid green;
-}
-
 .header-section {
   display: flex;
   flex-direction: row;
@@ -35,20 +23,12 @@ div {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  min-width: 375px;
+  height:48px;
+  outline:1px solid green;
 }
 
-.logo-placeholder {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-  color: #6070ff;
-  margin-left: 12px;
-  padding: 0 12px;
-  box-sizing: border-box;
-}
+/*
+
 
 .logo-placeholder p {
   font-weight: bold;
