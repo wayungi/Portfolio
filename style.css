@@ -258,7 +258,8 @@ button:active {
   margin-bottom: 20px;
 }
 
-.about-me h1 {
+.about-me h1, 
+.contact-page h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -273,6 +274,10 @@ button:active {
 .contact-page{
   outline:1px solid greenyellow;
   padding:0 24px;
+}
+
+.contact-page h1{
+
 }
 /* .language-list h2 {
   font-style: normal;
