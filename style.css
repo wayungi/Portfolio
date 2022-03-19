@@ -322,6 +322,39 @@ input[type="text"]{
   color:#fff;
 }
 
+.main-skill{
+  height:60px;
+  outline:1px solid black;
+  list-style: none;
+  width:290px;
+  box-sizing: border-box;
+}
+
+li.js-icon{
+  background-image: url('images/js2.png');
+}
+
+li.html-icon{
+  background-image: url('images/html2.png');
+} 
+
+li.css-icon{
+  background-image: url('images/css2.png');
+}
+
+li.css-icon,
+li.html-icon,
+li.js-icon{
+  background-color:  #F7F7F9;
+  background-repeat: no-repeat;
+  background-position: 10px 4px;
+  line-height: 60px;
+  padding-left:70px;
+}
+
+
+
+
 /* .language-list h2 {
   font-style: normal;
   font-weight: 500;
@@ -335,25 +368,8 @@ input[type="text"]{
   outline: 1px solid black;
 }
 
-li.js-icon{
-  background-image: url('images/js2.png');
-}
 
-li.html-icon{
-  background-image: url('images/html2.png');
-} */
 
-/* li.css-icon{
-  background-image: url('images/css2.png');
-}
-
-li.icon-holder{
-  background-color:  #F7F7F9;
-  background-repeat: no-repeat;
-  background-position: 10px 2px;
-  line-height: 50px;
-  padding-left:70px;
-}
 
 div.language-list{
   height:5em;
