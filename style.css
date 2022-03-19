@@ -366,3 +366,10 @@ li.js-icon {
   padding-left: 70px;
   border-radius: 8px;
 }
+
+.scroll-bar{
+  display:block;
+  width:100px;
+  margin:0 auto;
+  margin-bottom:5px;
+}
