@@ -255,7 +255,6 @@ button:active {
   margin-top: 100px;
   padding: 0 24px;
   padding-top: 114px;
-  outline: 1px solid green;
   margin-bottom: 20px;
 }
 
@@ -270,14 +269,16 @@ button:active {
   margin-bottom: 12px;
 }
 
-.language-list h2 {
+
+
+/* .language-list h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-}
+} */
 
-.language-list li {
+/* .language-list li {
   list-style: none;
   height:80px;
   outline: 1px solid black;
@@ -289,9 +290,9 @@ li.js-icon{
 
 li.html-icon{
   background-image: url('images/html2.png');
-}
+} */
 
-li.css-icon{
+/* li.css-icon{
   background-image: url('images/css2.png');
 }
 
@@ -307,13 +308,13 @@ div.language-list{
   height:5em;
   outline:1px solid blue;
   margin-bottom:10px;
-}
+} */
 
 
-.arrow {
+/* .arrow {
   margin-left: 200px;
   position: relative;
-}
+} */
 
 
 
