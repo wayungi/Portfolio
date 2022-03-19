@@ -324,11 +324,14 @@ input[type="text"]{
 
 .main-skill{
   height:60px;
-  /* outline:1px solid black; */
   list-style: none;
   width:290px;
   box-sizing: border-box;
   margin-bottom:8px;
+}
+
+.key-area{
+  line-height: 80px;
 }
 
 li.js-icon{
