@@ -188,6 +188,10 @@ a.connect:active {
   flex-direction: row;
 }
 
+.options li{
+  list-style-image: url('images/counter.png');
+}
+
 .title {
   font-style: normal;
   font-weight: 600;
