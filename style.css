@@ -246,9 +246,8 @@ button:hover{
 
 button:active{
   background-color: #2230D2;
+  color:white;
 }
-
-/*
 
 .about-me {
   background-image: url('images/aboutme_bg.png');
@@ -257,11 +256,14 @@ button:active{
   margin-top:100px;
   padding:0 24px;
   padding-top:114px;
-
   outline:1px solid green;
-  height: 800px;
   margin-bottom:20px;
 }
+
+
+/*
+
+
 
 .about-me h1 {
   font-family: 'Poppins_small', sans-serif;
