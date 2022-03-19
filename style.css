@@ -144,6 +144,28 @@ li {
   grid-template-rows: repeat(4, 25%) ;
 }
 
-.card-1{
-  grid-column-start: ;
+.card{
+  outline:1px solid black;
+  min-width: 100px;
+  min-height:100px;
+}
+
+.card-1 {
+  grid-row: 2/1;
+  background-color: blue;
+}
+
+.card-2 {
+  grid-row: 3/2;
+  background-color: red;
+}
+
+.card-3 {
+  grid-row: 4/3;
+  background-color: yellow;
+}
+
+.card-4 {
+  grid-row: 5/4;
+  background-color: black;
 }
