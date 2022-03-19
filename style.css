@@ -2,9 +2,24 @@
 
 html,
 body,
+div,
+ul,
+li,
+p {
+  margin:0;
+  padding:0;
+}
+
+/* html,
+body,
 div {
   margin: 0;
   padding: 0;
+}
+
+.wrapper{
+  width:375px;
+  outline:1px solid green;
 }
 
 .header-section {
@@ -121,22 +136,7 @@ li {
   padding: 0;
 }
 
-ul {
-  display: flex;
-  margin-top: 12px;
-}
 
-li {
-  list-style: none;
-  width: 50px;
-  display: flex;
-}
-
-.social a {
-  display: inline-block;
-}
-
-/* work section styles */
 
 .works {
   display: grid;
@@ -240,4 +240,4 @@ button{
 .contact-form h1{
   margin-bottom:12px;
 }
-
+ */
