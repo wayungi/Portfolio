@@ -280,13 +280,23 @@ button:active {
 .language-list li {
   list-style: none;
   height:80px;
-  
   outline: 1px solid black;
 }
 
 li.js-icon{
-  background-color:  #F7F7F9;
   background-image: url('images/js2.png');
+}
+
+li.html-icon{
+  background-image: url('images/html2.png');
+}
+
+li.css-icon{
+  background-image: url('images/css2.png');
+}
+
+li.icon-holder{
+  background-color:  #F7F7F9;
   background-repeat: no-repeat;
   background-position: 10px 2px;
   line-height: 50px;
