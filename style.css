@@ -53,15 +53,6 @@ a.logo {
   font-family: 'Poppins', sans-serif;
 }
 
-
-
-/*
-.logo-placeholder p {
-  font-weight: bold;
-}
-
-
-
 .main-nav {
   display: flex;
   flex-direction: row;
@@ -74,6 +65,11 @@ a.logo {
   background-position: center;
   cursor: pointer;
 }
+
+
+
+/*
+
 
 .introduction {
   min-height: 400px;
