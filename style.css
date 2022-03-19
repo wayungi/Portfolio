@@ -157,8 +157,6 @@ li {
   border: 1px solid #DFE1E6;
 box-sizing: border-box;
 border-radius: 16px;
-  /* min-width: 100px;
-  min-height: 100px; */
 }
 
 .card-1 {
@@ -209,5 +207,26 @@ button{
   color: #396DF2;
   border:1px solid #6070ff;
   border-radius: 5px;
+}
+
+.about-me {
+  background-image: url('images/aboutme_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:100px;
+  padding:0 24px;
+  padding-top:114px;
+
+  outline:1px solid green;
+  height: 800px;
+  margin-bottom:20px;
+}
+
+.about-me h1 {
+  font-family: 'Poppins_small', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  outline:1px solid red;
 }
 
