@@ -142,6 +142,7 @@ li {
   display: grid;
   grid-template-columns: 100% ;
   grid-template-rows: repeat(4, 25%) ;
+  padding: 0 24px;
 }
 
 .card{
@@ -150,7 +151,10 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  outline:1px solid black;
+  border-radius: 16px;
+  margin-top:100px;
+
+  border:1px solid white;
   min-width: 100px;
   min-height:100px;
 }
