@@ -84,17 +84,19 @@ a.logo {
   outline:1px solid red;
 }
 
+.welcome-note h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  /* margin: 0 24px; */
+  /* min-width: 327px; */
+}
+
 
 
 /*
-.welcome-note h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: black;
-  margin: 0 24px;
-  min-width: 327px;
-}
+
 
 .profile {
   margin: 12px 24px;
