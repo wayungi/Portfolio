@@ -324,10 +324,11 @@ input[type="text"]{
 
 .main-skill{
   height:60px;
-  outline:1px solid black;
+  /* outline:1px solid black; */
   list-style: none;
   width:290px;
   box-sizing: border-box;
+  margin-bottom:8px;
 }
 
 li.js-icon{
@@ -350,6 +351,8 @@ li.js-icon{
   background-position: 10px 4px;
   line-height: 60px;
   padding-left:70px;
+  border-radius: 8px;;
+  
 }
 
 
