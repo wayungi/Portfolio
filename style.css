@@ -154,8 +154,11 @@ li {
   margin-top: 100px;
   padding: 16px;
   border: 1px solid white;
-  min-width: 100px;
-  min-height: 100px;
+  border: 1px solid #DFE1E6;
+box-sizing: border-box;
+border-radius: 16px;
+  /* min-width: 100px;
+  min-height: 100px; */
 }
 
 .card-1 {
@@ -198,3 +201,16 @@ li {
   line-height: 30px;
   margin-top: 20px;
 }
+
+button{
+  margin:24px 0;
+  padding:10px;
+  font-family: 'Poppins_small', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: white;
+  color: #396DF2;
+  border:1px solid #6070ff;
+  border-radius: 5px;
+}
+
