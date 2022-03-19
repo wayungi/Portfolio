@@ -331,9 +331,24 @@ input[type="text"]{
 }
 
 .key-area{
-  line-height: 80px;
+  line-height: 50px;
 }
 
+.more{
+  background-image: url('images/down.png');
+}
+
+.next{
+  border-bottom: 1px solid #DFE1E6;
+  background-image: url('images/next.png');
+}
+
+
+.more,
+.next{
+  background-repeat: no-repeat;
+  background-position: 250px 30px;
+}
 li.js-icon{
   background-image: url('images/js2.png');
 }
