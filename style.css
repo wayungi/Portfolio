@@ -26,7 +26,6 @@ p {
   align-items: center;
   align-content: center;
   height:48px;
-  outline:1px solid green;
 }
 
 .logo-placeholder {
@@ -70,10 +69,10 @@ a.logo {
   justify-content: center;
   background-image: url('images/intro-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fit;
   padding:0 24px;
   padding-top: 114px;
-  outline:1px solid red;
+  outline:1px solid black;
 }
 
 .welcome-note h1 {
@@ -118,19 +117,28 @@ a.connect:active {
   font-family: 'Poppins', sans-serif;
 }
 
+.social{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin-bottom:138px;
+}
 
+.social>li{
+  list-style: none;
+}
+
+.social-links{
+  display:inline-block;
+  margin-right:20px;
+}
 
 
 
 
 
 /*
-
-
-a.connect:active {
-  background: #2230d2;
-  padding: 12px;
-}
 
 ul,
 li {
