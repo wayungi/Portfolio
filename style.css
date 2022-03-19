@@ -93,14 +93,7 @@ a.logo {
   margin-bottom:12px;
 }
 
-
-/* re-usable classes */
-.font{
-  font-family: 'Poppins', sans-serif;
-}
-
 a.connect {
-  /* border-radius: 8px; */
   display: inline-block;
   font-style: normal;
   font-weight: 400;
@@ -109,6 +102,20 @@ a.connect {
   color: #7F8CFF;
   margin-bottom:12px;
   text-decoration: none;
+}
+
+a.connect:hover{
+  color:#6070FF
+}
+
+a.connect:active {
+  color:#2230D2
+}
+
+
+/* re-usable classes */
+.font{
+  font-family: 'Poppins', sans-serif;
 }
 
 
