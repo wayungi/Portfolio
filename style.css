@@ -88,7 +88,7 @@ a.logo {
   color: #344563;
 }
 
-.welcome-note a {
+.welcome-note a, .about-me a {
   font-family: 'Poppins', sans-serif;
   margin: 0 24px;
   color: #7f8cff;
@@ -188,7 +188,7 @@ border-radius: 16px;
   margin-top: 12px;
 }
 
-.card p{
+.card p, .about-me p{
   font-family: 'Poppins_small', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -229,4 +229,6 @@ button{
   line-height: 52px;
   outline:1px solid red;
 }
+
+
 
