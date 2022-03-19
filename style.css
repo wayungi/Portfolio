@@ -145,6 +145,11 @@ li {
 }
 
 .card{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   outline:1px solid black;
   min-width: 100px;
   min-height:100px;
