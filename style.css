@@ -70,9 +70,9 @@ a.logo {
   background-image: url('images/intro-bg.png');
   background-repeat: no-repeat;
   background-size: fit;
-  padding:0 24px;
-  padding-top: 114px;
-  outline:1px solid black;
+  padding: 114px 24px 0 24px;
+  /* outline:1px solid black; */
+  margin-bottom:114px;
 }
 
 .welcome-note h1 {
@@ -111,18 +111,12 @@ a.connect:active {
   color:#2230D2
 }
 
-
-/* re-usable classes */
-.font{
-  font-family: 'Poppins', sans-serif;
-}
-
 .social{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: baseline;
-  margin-bottom:138px;
+  margin-bottom:70px;
 }
 
 .social>li{
@@ -134,20 +128,12 @@ a.connect:active {
   margin-right:20px;
 }
 
-
-
-
-
-/*
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
+/* re-usable classes */
+.font{
+  font-family: 'Poppins', sans-serif;
 }
 
-
-
+/* work section styles */
 .works {
   display: grid;
   grid-template-columns: 100%;
@@ -161,13 +147,29 @@ li {
   justify-content: center;
   align-items: flex-start;
   border-radius: 16px;
-  margin-top: 100px;
   padding: 16px;
-  border: 1px solid white;
   border: 1px solid #DFE1E6;
-box-sizing: border-box;
-border-radius: 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width:327px;
 }
+
+.card h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 12px;
+}
+
+
+
+
+
+/*
+
+
+
 
 .card-1 {
   grid-row: 2/1;
@@ -189,14 +191,7 @@ border-radius: 16px;
   width: 100%;
 }
 
-.card h1 {
-  font-family: 'Poppins_small', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 12px;
-}
+
 
 .card p, .about-me p{
   font-family: 'Poppins_small', sans-serif;
