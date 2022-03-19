@@ -22,8 +22,12 @@ body {
   flex-direction: column;
   background-color: #f7f7f9;
 }
+.signal-section{
+ padding:0 15px 0 40px;
+}
 
-.header-section {
+.header-section,
+.signal-section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
