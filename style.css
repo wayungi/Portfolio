@@ -198,7 +198,8 @@ a.connect:active {
   color: #7a869a;
 }
 
-.card p {
+.card p,
+.contact-page p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -270,15 +271,24 @@ button:active {
   margin-bottom: 12px;
 }
 
-
 .contact-page{
   outline:1px solid greenyellow;
   padding:0 24px;
 }
 
-.contact-page h1{
-
+.contact-form{
+  /* outline:1px solid black; */
+  margin-top:44px;
 }
+
+input[type="text"]{
+  width:100%;
+  height:40px;
+  border:1px solid #6070FF;
+  margin-bottom:20px;
+  border-radius: 10px;
+}
+
 /* .language-list h2 {
   font-style: normal;
   font-weight: 500;
