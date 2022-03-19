@@ -116,7 +116,6 @@ a.connect:active {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: baseline;
-  margin-bottom: 70px;
 }
 
 .social > li {
@@ -263,10 +262,15 @@ button:active{
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-bottom:12px;
 }
 
 h1{
   color: #172B4D;
+}
+
+.about-me p{
+  margin-bottom:12px;
 }
 
 
