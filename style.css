@@ -230,5 +230,14 @@ button{
   outline:1px solid red;
 }
 
+.contact-form {
+  background-image: url('images/contact_me.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:400px;
+}
 
+.contact-form h1{
+  margin-bottom:12px;
+}
 
