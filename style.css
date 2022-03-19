@@ -197,6 +197,13 @@ a.connect:active {
   color:#7A869A;
 }
 
+.card p{
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+}
+
 
 /* re-usable classes */
 .font{
