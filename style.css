@@ -27,6 +27,22 @@ p {
   outline:1px solid green;
 }
 
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-style: normal;
+  
+  color: #6070ff;
+  margin-left: 12px;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
 /*
 
 
