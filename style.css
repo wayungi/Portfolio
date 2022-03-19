@@ -270,7 +270,10 @@ button:active {
 }
 
 
-
+.contact-page{
+  outline:1px solid greenyellow;
+  padding:0 24px;
+}
 /* .language-list h2 {
   font-style: normal;
   font-weight: 500;
