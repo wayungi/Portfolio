@@ -143,3 +143,7 @@ li {
   grid-template-columns: 100% ;
   grid-template-rows: repeat(4, 25%) ;
 }
+
+.card-1{
+  grid-column-start: ;
+}
