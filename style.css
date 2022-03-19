@@ -183,13 +183,21 @@ a.connect:active {
 }
 
 .options {
-  outline: 1px solid black;
   display: flex;
   flex-direction: row;
 }
 
 .options li{
-  list-style-image: url('images/counter.png');
+  list-style: none;
+}
+
+span.spacer{
+  display:inline-block;
+  padding-left:20px;
+  background-image: url('images/counter.png');
+  background-repeat: no-repeat;
+  background-position: 5px 8px;
+
 }
 
 .title {
