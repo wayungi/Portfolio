@@ -202,6 +202,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
+margin:12px 0;
 }
 
 
@@ -212,16 +213,6 @@ line-height: 24px;
 
 
 /*
-
-
-
-
-
-
-.card img {
-  width: 100%;
-}
-
 
 
 .card p, .about-me p{
