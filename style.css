@@ -32,22 +32,10 @@ p {
   align-items: center;
   height: 40px;
   font-style: normal;
-  
   color: #6070ff;
   margin-left: 12px;
   padding: 0 12px;
   box-sizing: border-box;
-}
-
-.font{
-  font-family: 'Poppins', sans-serif;
-}
-
-/*
-
-
-.logo-placeholder p {
-  font-weight: bold;
 }
 
 a.logo {
@@ -59,6 +47,20 @@ a.logo {
   font-size: 18px;
   line-height: 20px;
 }
+
+/* re-usable classes */
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*
+.logo-placeholder p {
+  font-weight: bold;
+}
+
+
 
 .main-nav {
   display: flex;
