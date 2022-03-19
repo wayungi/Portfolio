@@ -10,6 +10,12 @@ p {
   padding:0;
 }
 
+.page-wrapper{
+  outline:1px solid black;
+  width:375px;
+  margin:25px auto;
+}
+
 /* html,
 body,
 div {
