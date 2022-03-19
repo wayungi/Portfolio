@@ -303,6 +303,12 @@ li.icon-holder{
   padding-left:70px;
 }
 
+div.language-list{
+  height:5em;
+  outline:1px solid blue;
+  margin-bottom:10px;
+}
+
 
 .arrow {
   margin-left: 200px;
@@ -311,16 +317,3 @@ li.icon-holder{
 
 
 
-/*
-
-.contact-form {
-  background-image: url('images/contact_me.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top:400px;
-}
-
-.contact-form h1{
-  margin-bottom:12px;
-}
- */
