@@ -135,3 +135,11 @@ li {
 .social a {
   display: inline-block;
 }
+
+/* work section styles */
+
+.works {
+  display: grid;
+  grid-template-columns: 100% ;
+  grid-template-rows: repeat(4, 25%) ;
+}
