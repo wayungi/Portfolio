@@ -128,11 +128,6 @@ a.connect:active {
   margin-right:20px;
 }
 
-/* re-usable classes */
-.font{
-  font-family: 'Poppins', sans-serif;
-}
-
 /* work section styles */
 .works {
   display: grid;
@@ -152,6 +147,7 @@ a.connect:active {
   box-sizing: border-box;
   border-radius: 16px;
   width:327px;
+  margin-bottom:88px;
 }
 
 .card h1 {
@@ -159,17 +155,8 @@ a.connect:active {
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 12px;
+  margin:12px 0;
 }
-
-
-
-
-
-/*
-
-
-
 
 .card-1 {
   grid-row: 2/1;
@@ -186,6 +173,43 @@ a.connect:active {
 .card-4 {
   grid-row: 5/4;
 }
+
+
+.options{
+  outline:1px solid black;
+  display:flex;
+  flex-direction: row;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color:#344563;
+}
+
+.role-year{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color:#7A869A;
+}
+
+
+/* re-usable classes */
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*
+
+
+
+
+
 
 .card img {
   width: 100%;
