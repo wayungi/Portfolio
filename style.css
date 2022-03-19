@@ -239,10 +239,12 @@ button{
   border-radius: 5px;
 }
 
+button:hover{
+  background-color:#6070FF;
+  color:white;
+}
+
 /*
-
-
-
 
 .about-me {
   background-image: url('images/aboutme_bg.png');
