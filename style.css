@@ -16,12 +16,11 @@ body{
 }
 
 .page-wrapper {
-  /* outline: 1px solid black; */
   width: 375px;
   margin: 25px auto;
   display: flex;
   flex-direction: column;
-  background:#fff;
+  background-color:  #fff;
 }
 
 .header-section {
