@@ -22,8 +22,9 @@ body {
   flex-direction: column;
   background-color: #f7f7f9;
 }
-.signal-section{
- padding:0 15px 0 40px;
+
+.signal-section {
+  padding: 0 15px 0 40px;
 }
 
 .header-section,
@@ -367,9 +368,9 @@ li.js-icon {
   border-radius: 8px;
 }
 
-.scroll-bar{
-  display:block;
-  width:100px;
-  margin:0 auto;
-  margin-bottom:5px;
+.scroll-bar {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
