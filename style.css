@@ -227,9 +227,6 @@ a{
 }
 
 
-/*
-
-
 button{
   margin:24px 0;
   padding:10px;
@@ -241,6 +238,11 @@ button{
   border:1px solid #6070ff;
   border-radius: 5px;
 }
+
+/*
+
+
+
 
 .about-me {
   background-image: url('images/aboutme_bg.png');
