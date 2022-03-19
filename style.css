@@ -140,23 +140,22 @@ li {
 
 .works {
   display: grid;
-  grid-template-columns: 100% ;
-  grid-template-rows: repeat(4, 25%) ;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 25%);
   padding: 0 24px;
 }
 
-.card{
-
-  display:flex;
+.card {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   border-radius: 16px;
-  margin-top:100px;
-
-  border:1px solid white;
+  margin-top: 100px;
+  padding: 16px;
+  border: 1px solid white;
   min-width: 100px;
-  min-height:100px;
+  min-height: 100px;
 }
 
 .card-1 {
@@ -177,4 +176,17 @@ li {
 .card-4 {
   grid-row: 5/4;
   background-color: black;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h1 {
+  font-family: 'Poppins_small', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 12px;
 }
