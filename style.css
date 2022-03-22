@@ -439,3 +439,11 @@ form ul {
   width: 100%;
   height: 170px;
 }
+
+#contact-page-scroll {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  margin: 8px auto;
+}
