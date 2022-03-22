@@ -380,6 +380,7 @@ li.js-icon {
 .contact-page{
   display:flex;
   flex-flow:column wrap;
+  justify-content: center;
 }
 
 .contact-page-title{
@@ -389,6 +390,7 @@ li.js-icon {
   font-weight: 700; 
   font-size: 40px; 
   line-height: 52px; 
+  text-align: center;
 }
 
 .contact-page-info{
@@ -397,7 +399,11 @@ li.js-icon {
   font-weight: 400; 
   font-size: 20px; 
   line-height: 28px; 
+  text-align: center;
+
 }
+
+
 
 input[type='text'], 
 input[type='email']{
@@ -407,4 +413,17 @@ input[type='email']{
   font-size: 17px; 
   line-height: 20px; 
   color: #172b4d; 
+  height: 40px;
+  margin-bottom:20px;
+  width:100%;
+  border-radius:8px;
+  border:1px solid #cfd8dc;
+  padding: 15px 16px;
+  box-sizing: border-box;
+  
+  
+}
+
+form ul {
+  list-style: none;
 }
