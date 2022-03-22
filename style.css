@@ -374,3 +374,10 @@ li.js-icon {
   margin: 0 auto;
   margin-bottom: 5px;
 }
+
+/* contact form styles */
+.contact-page{
+  display:flex;
+  flex-flow:column wrap;
+  
+}
