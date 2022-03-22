@@ -287,7 +287,8 @@ button:active {
 
 .contact-page {
   padding: 0 24px;
-  background-image: url('images/bg_opq.png'), url('images/contact_me.png');
+  background-image: url('images/contact-form-shapes.png'), url('images/contact_me.png');
+  background-size: cover;
 }
 
 .contact-form {
