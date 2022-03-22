@@ -384,10 +384,27 @@ li.js-icon {
 
 .contact-page-title{
   color:#fff;
-  font-family: 'Poppins'; 
+  font-family: 'Poppins', sans-serif; 
   font-style: normal; 
   font-weight: 700; 
   font-size: 40px; 
   line-height: 52px; 
 }
 
+.contact-page-info{
+  font-family: 'Poppins', sans-serif; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 20px; 
+  line-height: 28px; 
+}
+
+input[type='text'], 
+input[type='email']{
+  font-family: 'Poppins', sans-serif; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 17px; 
+  line-height: 20px; 
+  color: #172b4d; 
+}
