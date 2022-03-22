@@ -269,7 +269,6 @@ button:active {
   background-image: url('images/aboutme_bg.png');
   background-repeat: no-repeat;
   padding: 70px 24px;
-  margin-bottom: 20px;
 }
 
 .about-me h1,
@@ -288,6 +287,7 @@ button:active {
   padding: 0 24px;
   background-image: url('images/contact-form-shapes.png'), url('images/contact_me.png');
   background-size: cover;
+  outline:1px solid black;
 }
 
 .contact-form {
