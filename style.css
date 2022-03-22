@@ -309,11 +309,11 @@ button:active {
   border: 1px solid #6070ff;
 }
 
-.message,
+/* .message,
 input[type="text"] {
   padding: 10px;
   box-sizing: border-box;
-}
+} */
 
 .contact-page p {
   color: #fff;
