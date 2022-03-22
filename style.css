@@ -380,5 +380,14 @@ li.js-icon {
 .contact-page{
   display:flex;
   flex-flow:column wrap;
-  
 }
+
+.contact-page-title{
+  color:#fff;
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 40px; 
+  line-height: 52px; 
+}
+
