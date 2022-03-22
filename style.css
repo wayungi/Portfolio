@@ -420,10 +420,22 @@ input[type='email']{
   border:1px solid #cfd8dc;
   padding: 15px 16px;
   box-sizing: border-box;
-  
-  
 }
 
 form ul {
   list-style: none;
+}
+
+#message {
+  background: #fff;
+  border: 1px splid #cfd8dc;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  width: 100%;
+  height: 170px;
 }
