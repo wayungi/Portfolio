@@ -15,7 +15,7 @@ div,
   display:flex;
   flex-direction: column;
   flex-wrap:nowrap; 
-  /* padding:0 24px; */
+  background-color: #E5E5E5;;
 }
 
 .signal-section{
@@ -56,8 +56,7 @@ time{
 a{text-decoration: none;}
 
 .introduction{
-  outline:1px solid black;
-  margin:124px 0 0 0;
+  padding:124px 0 0 0;
   background-image: url('images/header_bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
