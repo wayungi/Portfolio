@@ -25,8 +25,35 @@ body {
 
 /* for larger screens of with 760px and above */
 @media (min-width: 760px) {
+
   .page-wrapper {
     width: 1440px;
+  }
+}
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-image: url('images/intro-bg.png');
+  background-repeat: no-repeat;
+  padding: 114px 24px 0 24px;
+  margin-bottom: 70px;
+  padding-bottom: 50px;
+}
+
+
+@media (min-width:760px) {
+  .introduction{
+    background-color: white;
+    border-bottom-left-radius: 70px;
+    height:916px;
+    background-image: url('images/desktop/header-bg-dsktp.png');
+    background-repeat: no-repeat;
+    background-position: 34.6px 46px;
+    background-size: contain;
   }
 }
 
@@ -81,17 +108,7 @@ a.logo {
   cursor: pointer;
 }
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  background-image: url('images/intro-bg.png');
-  background-repeat: no-repeat;
-  padding: 114px 24px 0 24px;
-  margin-bottom: 70px;
-  padding-bottom: 50px;
-}
+
 
 h1 {
   color: #172b4d;
