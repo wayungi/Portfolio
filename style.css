@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
 
-html,
+/* html,
 body,
 div,
 ul,
@@ -97,7 +97,7 @@ h1 {
   margin-bottom: 12px;
 }
 
-/* h1 styling for large screens */
+
 @media (min-width: 760px){
   .welcome-note h1{
     font-family: 'Poppins';
@@ -476,7 +476,7 @@ form ul {
   width:50%;
 }
 
-/* for larger screens of with 760px and above */
+
 
 @media (min-width: 760px){
 
@@ -489,7 +489,7 @@ form ul {
   .introduction{
     background-color: #fff;
     border-bottom-left-radius: 70px;
-    /* height:916px; */
+  
     background-image: url('images/desktop/header-bg-dsktp.png');
     background-repeat: no-repeat;
     background-position: 34.6px 46px;
@@ -515,14 +515,7 @@ form ul {
     flex-direction: row;
     width:1156px;
     margin: 142px auto;
-    /* justify-content: center;
-    align-items: flex-start;
-    border-radius: 16px;
-    padding: 16px;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    width: 327px;
-    margin-bottom: 88px; */
+    
   }
 
   .re-order{
@@ -532,4 +525,4 @@ form ul {
   
 
 }
-  
+   */
