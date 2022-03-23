@@ -11,13 +11,24 @@ div,
   padding:0;
 }
 
-
 .page-wrapper{
   display:flex;
   flex-direction: column;
   flex-wrap:nowrap; 
-  align-items: center;
+  padding:0 24px;
 }
+
+.signal-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-top: 17.33px;
+
+}
+
+
+
 
 /* html,
 body,
