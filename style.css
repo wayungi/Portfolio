@@ -123,6 +123,7 @@ h1 {
   margin-bottom: 12px;
 }
 
+/* h1 styling for large screens */
 @media (min-width: 760px){
   .welcome-note h1{
     font-family: 'Poppins';
@@ -147,12 +148,16 @@ h1 {
   margin-bottom: 12px;
 }
 
-/* add paragraph style for desktop */
-/* @media (min-width:760px){
+/* paragraph styles for large screens */
+@media (min-width:760px) {
   .profile{
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
-} */
+}
 
 a.connect {
   display: inline-block;
