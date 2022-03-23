@@ -162,6 +162,7 @@ a.connect:active {
   grid-template-columns: 100%;
   grid-template-rows: repeat(4, 25%);
   padding: 0 24px;
+  outline:1px solid red;
 }
 
 .card {
@@ -187,18 +188,22 @@ a.connect:active {
 
 .card-1 {
   grid-row: 2/1;
+  background-color: yellow;
 }
 
 .card-2 {
   grid-row: 3/2;
+  background-color: blue;
 }
 
 .card-3 {
   grid-row: 4/3;
+  background-color: pink;
 }
 
 .card-4 {
   grid-row: 5/4;
+  background-color: orange;
 }
 
 .options {
@@ -463,6 +468,14 @@ form ul {
   margin: 8px auto;
 }
 
+.card img{
+  width:100%;
+}
+
+.card-partition{
+  width:50%;
+}
+
 /* for larger screens of with 760px and above */
 
 @media (min-width: 760px){
@@ -482,6 +495,7 @@ form ul {
     background-position: 34.6px 46px;
     background-size:contain;
     padding:241px 260px 0 260px;
+    margin-bottom:0;
   }
 
   .profile{
@@ -495,6 +509,27 @@ form ul {
   .social{
     margin-bottom: 255px;
   }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width:1156px;
+    margin: 142px auto;
+    /* justify-content: center;
+    align-items: flex-start;
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    width: 327px;
+    margin-bottom: 88px; */
+  }
+
+  .re-order{
+    order:1;
+  }
+
+  
 
 }
   
