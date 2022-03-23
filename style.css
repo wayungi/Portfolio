@@ -216,8 +216,7 @@ span.spacer {
   color: #7a869a;
 }
 
-.card p,
-.contact-page p {
+.card p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -270,7 +269,6 @@ button:active {
   background-image: url('images/aboutme_bg.png');
   background-repeat: no-repeat;
   padding: 70px 24px;
-  margin-bottom: 20px;
 }
 
 .about-me h1,
@@ -285,33 +283,30 @@ button:active {
   margin-bottom: 12px;
 }
 
-.contact-page {
-  padding: 0 24px;
-  background-image: url('images/bg_opq.png'), url('images/contact_me.png');
+.background-one {
+  background-image: url('images/contact-form-shapes.png');
+  background-size: 222px 709.17px;
+  background-position-x: 153px;
+  background-position-y: 21px;
+  background-repeat: no-repeat;
+}
+
+.contact-page-info,
+form {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-form {
   margin-top: 44px;
 }
 
-input[type="text"] {
-  width: 100%;
-  height: 50px;
-  border: 1px solid #6070ff;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-
 .message {
   width: 100%;
   height: 160px;
   border: 1px solid #6070ff;
-}
-
-.message,
-input[type="text"] {
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .contact-page p {
@@ -373,4 +368,79 @@ li.js-icon {
   width: 100px;
   margin: 0 auto;
   margin-bottom: 5px;
+}
+
+.contact-page {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #6070ff;
+  border-top-left-radius: 70px;
+}
+
+.contact-page-title {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 103px;
+}
+
+.contact-page-info {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #ebebff;
+}
+
+input[type='text'],
+input[type='email'] {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  height: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 16px;
+  box-sizing: border-box;
+}
+
+form ul {
+  list-style: none;
+}
+
+#message {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  width: 100%;
+  height: 170px;
+  padding: 15px 16px;
+  box-sizing: border-box;
+}
+
+#contact-page-scroll {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  margin: 8px auto;
 }
