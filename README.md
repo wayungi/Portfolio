@@ -30,12 +30,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
 
-👤 Lucas Costa Rodrigues 
-- GitHub: @lucas-crodrigues 
-- Twitter: @lcrodrigues58 
-- LinkedIn: https://www.linkedin.com/in/lucascostarodrigues/ 
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
