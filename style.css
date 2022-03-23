@@ -40,6 +40,15 @@ div,
   cursor: pointer;
 }
 
+.logo_hambuger{
+  outline:1px solid black;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 
 
