@@ -25,7 +25,6 @@ body {
 
 /* for larger screens of with 760px and above */
 @media (min-width: 760px) {
-
   .page-wrapper {
     width: 1440px;
   }
@@ -45,15 +44,18 @@ body {
 }
 
 
-@media (min-width:760px) {
+@media (min-width: 760px) {
   .introduction{
-    background-color: white;
+    background-color: rgb(27, 170, 63);
     border-bottom-left-radius: 70px;
-    height:916px;
+    /* height:916px; */
     background-image: url('images/desktop/header-bg-dsktp.png');
     background-repeat: no-repeat;
     background-position: 34.6px 46px;
-    background-size: contain;
+    background-size:cover;
+    padding:241px 260px 0 260px;
+    outline:1px solid red;
+    
   }
 }
 
@@ -121,6 +123,21 @@ h1 {
   margin-bottom: 12px;
 }
 
+@media (min-width: 760px){
+  .welcome-note h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091E42;
+  }
+}
+
+
+
 .profile {
   font-style: normal;
   font-weight: 400;
@@ -129,6 +146,13 @@ h1 {
   color: #344563;
   margin-bottom: 12px;
 }
+
+/* add paragraph style for desktop */
+/* @media (min-width:760px){
+  .profile{
+
+  }
+} */
 
 a.connect {
   display: inline-block;
