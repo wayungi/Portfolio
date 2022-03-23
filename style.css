@@ -10,6 +10,15 @@ div,
   margin:0;
   padding:0;
 }
+
+
+.page-wrapper{
+  display:flex;
+  flex-direction: column;
+  flex-wrap:nowrap; 
+  align-items: center;
+}
+
 /* html,
 body,
 div,
