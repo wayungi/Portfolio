@@ -294,8 +294,8 @@ button:active {
 .contact-page-info,
 form {
   margin: 0 24px;
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
