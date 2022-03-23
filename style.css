@@ -23,14 +23,6 @@ body {
   background-color: #f7f7f9;
 }
 
-/* for larger screens of with 760px and above */
-@media (min-width: 760px) {
-  .page-wrapper {
-    width: 1440px;
-  }
-}
-
-
 .introduction {
   display: flex;
   flex-direction: column;
@@ -42,24 +34,6 @@ body {
   margin-bottom: 70px;
   padding-bottom: 50px;
 }
-
-
-@media (min-width: 760px) {
-  .introduction{
-    background-color: rgb(27, 170, 63);
-    border-bottom-left-radius: 70px;
-    /* height:916px; */
-    background-image: url('images/desktop/header-bg-dsktp.png');
-    background-repeat: no-repeat;
-    background-position: 34.6px 46px;
-    background-size:cover;
-    padding:241px 260px 0 260px;
-    outline:1px solid red;
-    
-  }
-}
-
-
 
 .signal-section {
   padding: 0 15px 0 40px;
@@ -146,17 +120,6 @@ h1 {
   line-height: 24px;
   color: #344563;
   margin-bottom: 12px;
-}
-
-/* paragraph styles for large screens */
-@media (min-width:760px) {
-  .profile{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-  }
 }
 
 a.connect {
@@ -498,4 +461,44 @@ form ul {
   background-color: #0d151e;
   border-radius: 10px;
   margin: 8px auto;
+}
+
+/* for larger screens of with 760px and above */
+
+@media (min-width: 760px){
+
+  .page-wrapper {
+    width: 1440px;
+    background-color: #E5E5E5;
+    display:flex;
+  }
+
+  .introduction{
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
+    /* height:916px; */
+    background-image: url('images/desktop/header-bg-dsktp.png');
+    background-repeat: no-repeat;
+    background-position: 34.6px 46px;
+    background-size:contain;
+    padding:241px 260px 0 260px;
+  }
+
+  .profile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .social{
+    margin-bottom: 255px;
+  }
+
+}
+  
+
+
+
 }
