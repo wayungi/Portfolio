@@ -27,6 +27,19 @@ div,
 
 }
 
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 40px;
+  width: 40px;
+  margin-right: 24px; 
+  background-image: url('images/icon-menu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
 
 
 
@@ -101,18 +114,7 @@ a.logo {
   line-height: 20px;
 }
 
-.main-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  height: 40px;
-  width: 40px;
-  margin-right: 24px;
-  background-image: url('images/icon-menu.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
+
 
 
 
