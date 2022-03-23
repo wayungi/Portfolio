@@ -23,6 +23,15 @@ body {
   background-color: #f7f7f9;
 }
 
+/* for larger screens of with 760px and above */
+@media (min-width: 760px) {
+  .page-wrapper {
+    width: 1440px;
+  }
+}
+
+
+
 .signal-section {
   padding: 0 15px 0 40px;
 }
