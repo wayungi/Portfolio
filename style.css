@@ -264,7 +264,8 @@ button:active {
 }
 
 .pro-skills, 
-.nested {
+.nested,
+.pro-skills {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -276,17 +277,12 @@ button:active {
   height: 60px;
   line-height: 60px;
   margin-bottom: 12px;
-
 }
 
-.pro-skills li {
-  list-style: none;
-  display: inline-block;
-
-  /* outline:1px solid black; */
-  height: 66.72px;
-  line-height: 66.72px;
-  margin-bottom: 12px;
+.pro-skills > a{
+  /* outline:1px solid red; */
+  height:60px;
+  line-height: 60px;
 }
 
 .js-icon {
@@ -333,7 +329,7 @@ button:active {
   background-color: #fff;
 }
 
-.background-one {
+. {
   background-color: #6070ff;
   border-top-left-radius: 70px;
   background-image: url("images/contact-form-bg.svg");
@@ -397,17 +393,10 @@ button[type="submit"] {
 
 #contact-page-scroll {
   outline: 1px solid black;
-
-  /* background-image: url('images/shape.png'); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   width: 60px;
   margin: 12px auto;
   border-radius: 50%;
-}
-
-.nested{
-  display:flex;
-  flex-direction: column;
 }
 
 /* Styles for viewports wider than 768 pixels. */
@@ -484,13 +473,38 @@ button[type="submit"] {
     margin-bottom: 88px;
   }
 
-  .about-me{
-    flex-direction: row;
+  .card:nth-child(2n){
+    margin-bottom:0;
   }
 
-  /* .pro-skills{
+  .about-me{
     flex-direction: row;
-  } */
+    border-radius: none;
+    border-radius: 0;
+  }
+
+  .about-me-text{
+    padding-right:30px;
+  }
+
+  .background-one{
+    background-image: none;
+  }
+
+  .contact-page{
+    background-color: #6070FF;
+    background-image: url('images/header_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 0 25%;
+  }
+
+  button[type="submit"] {
+    margin: 22px auto;
+  }
+
+
 
   
 
