@@ -263,10 +263,20 @@ button:active {
   color: #344563;
 }
 
-.pro-skills {
+.pro-skills, 
+.nested {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+
+.nested a{
+  /* outline:1px solid black;  */
+  display:inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 12px;
+
 }
 
 .pro-skills li {
@@ -395,6 +405,11 @@ button[type="submit"] {
   border-radius: 50%;
 }
 
+.nested{
+  display:flex;
+  flex-direction: column;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
@@ -473,9 +488,9 @@ button[type="submit"] {
     flex-direction: row;
   }
 
-  .pro-skills{
+  /* .pro-skills{
     flex-direction: row;
-  }
+  } */
 
   
 
