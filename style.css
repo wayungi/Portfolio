@@ -82,6 +82,12 @@ header{
   color: #172B4D; 
 }
 
+.connect{
+  /* outline:1px solid black; */
+  display:inline-block;
+  margin:12px 0;
+}
+
 
 
 /* html,
