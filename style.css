@@ -112,7 +112,6 @@ a.connect:active {
 
 .social{
   margin:0 0 136px 0;
-  /* align-items: center; */
 }
 
 .social-links{
@@ -126,7 +125,6 @@ a.connect:active {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(4, 25%);
-  outline:1px solid red;
 }
 
 .card{
@@ -137,20 +135,39 @@ a.connect:active {
   padding:16px;
   background-color: #fff;
   margin:0 0 88px 0;
+
 }
 
 .card:nth-child(4n){
   margin-bottom:0;
 }
 
+.card-partition{
+  width:100%;
+}
+
+.card-partition img{
+  width:100%;
+  height:auto;
+}
+
+.card-partition p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom:12px;
+}
+
 .options{
   align-items: baseline;
+  margin:0 0 20px 0;
 }
 
 .title,
 .role-year {
   display:inline-block;
-  /* outline:1px solid black; */
 }
 
 .title{
@@ -171,9 +188,27 @@ a.connect:active {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  /* line-height: 28px; */
   color: #7A869A;
 }
+
+.language {
+  margin-bottom:12px;
+}
+
+.language a{
+  display:inline-block;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070FF;
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+
 
 
 
