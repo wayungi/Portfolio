@@ -380,7 +380,14 @@ button[type='submit']{
   margin:22px auto;
 }
 
-
+#contact-page-scroll{
+  outline:1px solid black;
+  /* background-image: url('images/shape.png'); */
+  background-repeat: no-repeat;
+  width:60px;
+  margin:12px auto;
+  border-radius: 50%;
+}
 
 
 
