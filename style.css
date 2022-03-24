@@ -90,8 +90,9 @@ header{
   margin:12px 0;
 }
 
-.socail{
-  margin:0 0 0 136px;
+.social{
+  margin:0 0 136px 0;
+  /* align-items: center; */
 }
 
 .social-links{
