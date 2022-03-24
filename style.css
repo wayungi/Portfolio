@@ -359,10 +359,25 @@ input[type="email"]{
   height:50px;
   border-radius:8px;
   border: 1px solid #CFD8DC;
-  box-sizing:border-box;
-  padding:12px 10px;
   background: #FFFFFF;
   margin-bottom:20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea{
+  box-sizing:border-box;
+  padding:12px 10px;
+}
+
+textarea{
+  height:170px;
+}
+
+button[type='submit']{
+  width:150px;
+  margin:22px auto;
 }
 
 
