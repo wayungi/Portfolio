@@ -13,11 +13,16 @@ div,
 }
 
 .page-wrapper{
+  background-color: #E5E5E5;
+  min-width:375px;
+}
+
+.page-wrapper,
+.background-one{
   display:flex;
   flex-direction: column;
   flex-wrap:nowrap; 
-  background-color: #E5E5E5;
-  min-width:375px;
+  
 }
 
 .signal-section{
@@ -58,7 +63,8 @@ time{
 
 .logo_hambuger, 
 .social, 
-.options{
+.options,
+.contact-page,{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -307,6 +313,57 @@ button:active {
   background-position: 90% 50%;
 }
 
+/* conatct form page */
+.contact-page{
+  background-color: #fff;
+}
+
+.background-one{
+  background-color:#6070FF;
+  border-top-left-radius: 70px;
+  background-image: url('images/contact-form-bg.svg');
+  background-repeat: no-repeat;
+  padding:103px 24px 0 
+}
+
+.background-one h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:#fff;
+  justify-content: center;
+}
+
+.background-one p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  color: #EBEBFF;
+  text-align: center;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  margin:87px 0 0 0;
+}
+
+
+input[type="text"],
+input[type="email"]{
+  height:50px;
+  border-radius:8px;
+  border: 1px solid #CFD8DC;
+  box-sizing:border-box;
+  padding:12px 10px;
+  background: #FFFFFF;
+  margin-bottom:20px;
+}
 
 
 
