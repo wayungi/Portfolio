@@ -449,4 +449,20 @@ button[type="submit"] {
   .re-order{
     order: 1;
   }
+
+  .card-1 {
+    grid-row: 4/3; /*grid-row: 2/1;*/
+  }
+  
+  .card-2 {
+    grid-row: 5/4; /*grid-row: 3/2;*/
+  }
+  
+  .card-3 {
+    grid-row: 2/1;  /*grid-row: 4/3;*/
+  }
+  
+  .card-4 {
+    grid-row: 3/2;/*grid-row: 5/4;*/
+  }
 }
