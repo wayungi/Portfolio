@@ -353,6 +353,7 @@ form {
   display:flex;
   flex-direction: column;
   margin:87px 0 0 0;
+  
 }
 
 
@@ -379,7 +380,7 @@ textarea{
 
 button[type='submit']{
   width:150px;
-  margin:22px auto;
+  margin:22px 0;
 }
 
 #contact-page-scroll{
