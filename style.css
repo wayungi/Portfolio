@@ -56,7 +56,9 @@ time{
   cursor: pointer;
 }
 
-.logo_hambuger, .social{
+.logo_hambuger, 
+.social, 
+.options{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -141,9 +143,38 @@ a.connect:active {
   margin-bottom:0;
 }
 
-.card-partition{
-  /* outline:1px solid red; */
+.options{
+  align-items: baseline;
 }
+
+.title,
+.role-year {
+  display:inline-block;
+  /* outline:1px solid black; */
+}
+
+.title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.role-year {
+  padding:0 0 0 25px;
+  background-image: url('images/counter.svg');
+  background-repeat: no-repeat;
+  background-position: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  /* line-height: 28px; */
+  color: #7A869A;
+}
+
 
 
 
