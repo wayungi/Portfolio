@@ -323,6 +323,8 @@ button:active {
   border-top-left-radius: 70px;
   background-image: url('images/contact-form-bg.svg');
   background-repeat: no-repeat;
+  background-position: 100% 80%;
+  background-size: contain;
   padding:103px 24px 0 
 }
 
