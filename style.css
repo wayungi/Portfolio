@@ -150,6 +150,7 @@ a.connect:active {
 
 .card-partition {
   width: 100%;
+  /* outline:1px solid green; */
 }
 
 .card-partition img {
@@ -237,9 +238,12 @@ button:active {
 
 /* about me section */
 .about-me {
+  display:flex;
+  flex-direction: column;
   background-color: #fff;
   border-top-right-radius: 70px;
   padding: 114px 24px 113.85px 24px;
+  
 }
 
 .about-me h1 {
@@ -398,12 +402,7 @@ button[type="submit"] {
     display: none;
   }
 
-  /* display large screen navigation menu */
-  .main-nav-desktop {
-    display: block;
-  }
-
-  /* hide the humbergur on desktop*/
+  /* hide the humbergur on desktop */
   .main-nav {
     background-image: none;
     display: flex;
@@ -424,45 +423,62 @@ button[type="submit"] {
     line-height: 20px;
   }
 
-  .main-nav-desktop li{
-    padding-right:32px;
+  .main-nav-desktop li {
+    padding-right: 32px;
   }
 
-  .main-nav-desktop li:nth-child(3n){
-    padding-right:0;
+  .main-nav-desktop li:nth-child(3n) {
+    padding-right: 0;
   }
 
-  .introduction{
+  .introduction {
     padding: 0 164px 155px 164px;
   }
 
-  .card{
-    display:flex;
+  .card {
+    display: flex;
     flex-direction: row;
   }
 
-  .txt-content{
+  .txt-content {
     box-sizing: border-box;
     padding: 0 24px;
   }
 
-  .re-order{
+  .re-order {
     order: 1;
   }
 
   .card-1 {
-    grid-row: 4/3; /*grid-row: 2/1;*/
+    grid-row: 4/3; /* grid-row: 2/1; */
   }
-  
+
   .card-2 {
-    grid-row: 5/4; /*grid-row: 3/2;*/
+    grid-row: 5/4; /* grid-row: 3/2; */
   }
-  
+
   .card-3 {
-    grid-row: 2/1;  /*grid-row: 4/3;*/
+    grid-row: 2/1;  /* grid-row: 4/3; */
   }
-  
+
   .card-4 {
-    grid-row: 3/2;/*grid-row: 5/4;*/
+    grid-row: 3/2;/* grid-row: 5/4; */
   }
+
+  .card:nth-child(4n) {
+    margin-bottom: 88px;
+  }
+
+  .about-me{
+    flex-direction: row;
+  }
+
+  .pro-skills{
+    flex-direction: row;
+  }
+
+  
+
+
+
 }
