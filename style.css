@@ -25,12 +25,22 @@ div,
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding-top: 17.33px;
+  padding: 17.33px 14.67px 0 40px;
+}
+
+.logo-ph{
+  margin-left:24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo{
+  color: #6070FF;
 }
 
 time{
   display:block;
-  margin-left:21px;
 }
 
 .main-nav {
@@ -39,7 +49,7 @@ time{
   align-items: flex-start;
   height: 40px;
   width: 40px;
-  margin-right: 24px; 
+  margin-right: 36px; 
   background-image: url('images/icon-menu.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +74,7 @@ a{text-decoration: none;}
   padding:124px 24px 0 24px;
   background-image: url('images/header_bg.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: #fff;
   border-bottom-left-radius: 70px;
 }
