@@ -406,7 +406,6 @@ button[type="submit"] {
   /* hide the humbergur on desktop*/
   .main-nav {
     background-image: none;
-    /* outline: 1px solid red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -416,7 +415,6 @@ button[type="submit"] {
   }
 
   .main-nav-desktop {
-    /* outline: 1px solid black; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -427,7 +425,6 @@ button[type="submit"] {
   }
 
   .main-nav-desktop li{
-    /* outline:1px solid red; */
     padding-right:32px;
   }
 
@@ -438,4 +435,16 @@ button[type="submit"] {
   .introduction{
     padding: 0 164px 155px 164px;
   }
+
+  .card{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .txt-content{
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  
 }
