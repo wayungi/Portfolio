@@ -100,6 +100,14 @@ header{
   margin:12px 0;
 }
 
+a.connect:hover {
+  color: #6070ff;
+}
+
+a.connect:active {
+  color: #2230d2;
+}
+
 .social{
   margin:0 0 136px 0;
   /* align-items: center; */
@@ -110,137 +118,33 @@ header{
   padding-right:20px;
 }
 
-
-
-/* html,
-body,
-div,
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
+/* css grid layouts for cards */
+.works{
+  padding:114px 24px 0 24px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 25%);
+  outline:1px solid red;
 }
 
-html,
-body {
-  background-color: #172b4d;
-}
-
-.page-wrapper {
-  width: 375px;
-  margin: 25px auto;
-  display: flex;
+.card{
+  outline:1px solid blue;
+  display:flex;
   flex-direction: column;
-  background-color: #f7f7f9;
-}
-
-.introduction {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  background-image: url('images/intro-bg.png');
-  background-repeat: no-repeat;
-  padding: 114px 24px 0 24px;
-  margin-bottom: 70px;
-  padding-bottom: 50px;
-}
-
-.signal-section {
-  padding: 0 15px 0 40px;
-}
-
-.header-section,
-.signal-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
   align-items: center;
-  align-content: center;
-  height: 48px;
+  border-radius:16px;
+  padding:16px;
 }
 
-.logo-placeholder {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  font-style: normal;
-  color: #6070ff;
-  margin-left: 12px;
-  padding: 0 12px;
-  box-sizing: border-box;
-}
-
-a.logo {
-  text-decoration: none;
-  display: block;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 20px;
+.card-partition{
+  outline:1px solid red;
 }
 
 
 
 
+/* h
 
-h1 {
-  color: #172b4d;
-}
-
-.welcome-note h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-
-@media (min-width: 760px){
-  .welcome-note h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 48px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.37px;
-    color: #091E42;
-  }
-}
-
-
-
-.profile {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-bottom: 12px;
-}
-
-a.connect {
-  display: inline-block;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-bottom: 12px;
-  text-decoration: none;
-}
-
-a.connect:hover {
-  color: #6070ff;
-}
-
-a.connect:active {
-  color: #2230d2;
-}
 
 .social {
   display: flex;
