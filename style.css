@@ -128,16 +128,17 @@ a.connect:active {
 }
 
 .card{
-  outline:1px solid blue;
+  /* outline:1px solid blue; */
   display:flex;
   flex-direction: column;
   align-items: center;
   border-radius:16px;
   padding:16px;
+  background-color: #fff;
 }
 
 .card-partition{
-  outline:1px solid red;
+  /* outline:1px solid red; */
 }
 
 
