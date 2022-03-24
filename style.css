@@ -46,10 +46,13 @@ time{
   cursor: pointer;
 }
 
-.logo_hambuger{
+.logo_hambuger, .social{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.logo_hambuger{
   justify-content: space-between;
   align-items: center;
 }
@@ -83,9 +86,17 @@ header{
 }
 
 .connect{
-  /* outline:1px solid black; */
   display:inline-block;
   margin:12px 0;
+}
+
+.socail{
+  margin:0 0 0 136px;
+}
+
+.social-links{
+  display:inline-block;
+  padding-right:20px;
 }
 
 
