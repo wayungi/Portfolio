@@ -59,6 +59,11 @@ time {
   cursor: pointer;
 }
 
+/* hide desktop navigation on small screens */
+.main-nav-desktop{
+  display:none;
+}
+
 .logo_hambuger,
 .social,
 .options,
@@ -386,8 +391,14 @@ button[type='submit'] {
 
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
+  /* hide signal section */
   .signal-section{
     display:none;
+  }
+
+  /* display large screen navigation menu */
+  .main-nav-desktop{
+    display:block;
   }
 
 
