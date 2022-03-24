@@ -401,5 +401,23 @@ button[type='submit'] {
     display:block;
   }
 
+  /* hide the humbergur on desktop*/
+  .main-nav {
+    background-image:none;
+  }
+
+  .main-nav-desktop{
+    outline:1px solid black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    
+  }
+  
+
 
 }
