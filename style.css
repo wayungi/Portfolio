@@ -9,13 +9,15 @@ div,
  p{
   margin:0;
   padding:0;
+  color: #344563;
 }
 
 .page-wrapper{
   display:flex;
   flex-direction: column;
   flex-wrap:nowrap; 
-  background-color: #E5E5E5;;
+  background-color: #E5E5E5;
+  min-width:375px;
 }
 
 .signal-section{
@@ -56,12 +58,28 @@ time{
 a{text-decoration: none;}
 
 .introduction{
-  padding:124px 0 0 0;
+  padding:124px 24px 0 24px;
   background-image: url('images/header_bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
   border-bottom-left-radius: 70px;
+}
+
+header{
+  background-color: #fff;
+}
+
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome-note h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D; 
 }
 
 
