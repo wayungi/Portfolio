@@ -463,8 +463,8 @@ button[type="submit"] {
     grid-row: 3/2;
   }
 
-  .card:nth-child(4n) {
-    margin-bottom: 88px;
+  .card:nth-child(4) {
+    margin-bottom:88px !important;
   }
 
   .card:nth-child(2n) {
