@@ -446,10 +446,6 @@ button[type="submit"] {
   .txt-content {
     box-sizing: border-box;
     padding: 0 24px;
-    display:flex;
-    flex-direction:column;
-    /* align-content: flex-start; */
-    /* justify-items: flex-start; */
   }
 
   .re-order {
@@ -550,8 +546,4 @@ button[type="submit"] {
     font-size: 40px;
     line-height: 52px;
   }
-
-
-
-
 }
