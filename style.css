@@ -228,6 +228,7 @@ button {
 button:hover {
   background-color: #6070ff;
   color: white;
+  cursor:pointer;
 }
 
 button:active {
