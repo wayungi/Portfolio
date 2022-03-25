@@ -150,7 +150,6 @@ a.connect:active {
 
 .card-partition {
   width: 100%;
-  /* outline:1px solid green; */
 }
 
 .card-partition img {
@@ -243,7 +242,6 @@ button:active {
   background-color: #fff;
   border-top-right-radius: 70px;
   padding: 114px 24px 113.85px 24px;
-  
 }
 
 .about-me h1 {
@@ -272,7 +270,6 @@ button:active {
 }
 
 .nested a{
-  /* outline:1px solid black;  */
   display:inline-block;
   height: 60px;
   line-height: 60px;
@@ -280,7 +277,6 @@ button:active {
 }
 
 .pro-skills > a{
-  /* outline:1px solid red; */
   height:60px;
   line-height: 60px;
 }
@@ -329,7 +325,7 @@ button:active {
   background-color: #fff;
 }
 
-. {
+.background-one {
   background-color: #6070ff;
   border-top-left-radius: 70px;
   background-image: url("images/contact-form-bg.svg");
@@ -393,7 +389,6 @@ button[type="submit"] {
 
 #contact-page-scroll {
   outline: 1px solid black;
-  /* background-repeat: no-repeat; */
   width: 60px;
   margin: 12px auto;
   border-radius: 50%;
@@ -454,19 +449,19 @@ button[type="submit"] {
   }
 
   .card-1 {
-    grid-row: 4/3; /* grid-row: 2/1; */
+    grid-row: 4/3; 
   }
 
   .card-2 {
-    grid-row: 5/4; /* grid-row: 3/2; */
+    grid-row: 5/4;
   }
 
   .card-3 {
-    grid-row: 2/1;  /* grid-row: 4/3; */
+    grid-row: 2/1; 
   }
 
   .card-4 {
-    grid-row: 3/2;/* grid-row: 5/4; */
+    grid-row: 3/2;
   }
 
   .card:nth-child(4n) {
@@ -491,23 +486,35 @@ button[type="submit"] {
     background-image: none;
   }
 
+  .nested{
+    flex-direction: row;
+  }
+
+  .nested a{
+    height:90px;
+    width:10px;
+    line-height: 130px;
+    padding:20px 90px 0 10px;
+    margin:10px;
+   
+  }
+
   .contact-page{
+    background-image: url('images/desktop_bg_contact.svg');
     background-color: #6070FF;
-    background-image: url('images/header_bg.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top left;
     padding: 0 25%;
   }
 
   button[type="submit"] {
-    margin: 22px auto;
+    margin: 22px auto 44px auto;
   }
 
-
-
-  
-
-
+  #contact-page-scroll{
+    display:none;
+  }
 
 }
+
