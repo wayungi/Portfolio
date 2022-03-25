@@ -128,7 +128,7 @@ a.connect:active {
 
 /* css grid layouts for cards */
 .works {
-  padding: 114px 24px 114px 24px;
+  padding: 114px 24px;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(4, 25%);
@@ -522,6 +522,10 @@ button[type="submit"] {
   input,
   textarea{
     width:500px;
+  }
+
+  .works{
+    padding: 114px 10%;
   }
   
 }
