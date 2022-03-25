@@ -322,6 +322,7 @@ button:active {
 /* conatct form page */
 .contact-page {
   background-color: #fff;
+  
 }
 
 .background-one {
@@ -331,7 +332,8 @@ button:active {
   background-repeat: no-repeat;
   background-position: 100% 80%;
   background-size: contain;
-  padding: 103px 24px 0;
+  padding: 0 25%;
+  /* padding: 0 10%; */
 }
 
 .background-one h1 {
@@ -473,7 +475,7 @@ button[type="submit"] {
 
   .about-me {
     flex-direction: row;
-    border-radius: 0;
+    border-top-right-radius: 70px;
   }
 
   .about-me-text {
@@ -482,6 +484,7 @@ button[type="submit"] {
 
   .background-one {
     background-image: none;
+    
   }
 
   .nested {
@@ -498,11 +501,9 @@ button[type="submit"] {
 
   .contact-page {
     background-image: url('images/desktop_bg_contact.svg');
-    background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
-    padding: 0 25%;
   }
 
   button[type="submit"] {
@@ -512,4 +513,6 @@ button[type="submit"] {
   #contact-page-scroll {
     display: none;
   }
+
+  
 }
