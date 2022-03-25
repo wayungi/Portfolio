@@ -332,8 +332,9 @@ button:active {
   background-repeat: no-repeat;
   background-position: 100% 80%;
   background-size: contain;
-  padding: 0 25%;
-  /* padding: 0 10%; */
+  padding: 0 15%;
+  align-items: center;
+  
 }
 
 .background-one h1 {
@@ -514,5 +515,13 @@ button[type="submit"] {
     display: none;
   }
 
+  .contact-page-info{
+    text-align: center;
+  }
+
+  input,
+  textarea{
+    width:500px;
+  }
   
 }
