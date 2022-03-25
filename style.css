@@ -439,11 +439,16 @@ button[type="submit"] {
   .card {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .txt-content {
     box-sizing: border-box;
     padding: 0 24px;
+    display:flex;
+    flex-direction:column;
+    /* align-content: flex-start; */
+    /* justify-items: flex-start; */
   }
 
   .re-order {
@@ -527,5 +532,25 @@ button[type="submit"] {
   .works{
     padding: 114px 10%;
   }
-  
+
+  .img-content{
+    width:100%;
+    height:100%;
+  }
+
+  .card-partition img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+  .card-partition h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+
+
+
 }
