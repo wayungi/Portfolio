@@ -223,6 +223,8 @@ button {
   color: #396df2;
   border: 1px solid #6070ff;
   border-radius: 5px;
+
+  transition: all .5s ease-out
 }
 
 button:hover {
