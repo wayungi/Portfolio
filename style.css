@@ -237,7 +237,7 @@ button:active {
 
 /* about me section */
 .about-me {
-  display:flex;
+  display: flex;
   flex-direction: column;
   background-color: #fff;
   border-top-right-radius: 70px;
@@ -261,23 +261,22 @@ button:active {
   color: #344563;
 }
 
-.pro-skills, 
-.nested,
-.pro-skills {
+.pro-skills,
+.nested {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
 
-.nested a{
-  display:inline-block;
+.nested a {
+  display: inline-block;
   height: 60px;
   line-height: 60px;
   margin-bottom: 12px;
 }
 
-.pro-skills > a{
-  height:60px;
+.pro-skills > a {
+  height: 60px;
   line-height: 60px;
 }
 
@@ -449,7 +448,7 @@ button[type="submit"] {
   }
 
   .card-1 {
-    grid-row: 4/3; 
+    grid-row: 4/3;
   }
 
   .card-2 {
@@ -457,7 +456,7 @@ button[type="submit"] {
   }
 
   .card-3 {
-    grid-row: 2/1; 
+    grid-row: 2/1;
   }
 
   .card-4 {
@@ -468,40 +467,38 @@ button[type="submit"] {
     margin-bottom: 88px;
   }
 
-  .card:nth-child(2n){
-    margin-bottom:0;
+  .card:nth-child(2n) {
+    margin-bottom: 0;
   }
 
-  .about-me{
+  .about-me {
     flex-direction: row;
-    border-radius: none;
     border-radius: 0;
   }
 
-  .about-me-text{
-    padding-right:30px;
+  .about-me-text {
+    padding-right: 30px;
   }
 
-  .background-one{
+  .background-one {
     background-image: none;
   }
 
-  .nested{
+  .nested {
     flex-direction: row;
   }
 
-  .nested a{
-    height:90px;
-    width:10px;
+  .nested a {
+    height: 90px;
+    width: 10px;
     line-height: 130px;
-    padding:20px 90px 0 10px;
-    margin:10px;
-   
+    padding: 20px 90px 0 10px;
+    margin: 10px;
   }
 
-  .contact-page{
+  .contact-page {
     background-image: url('images/desktop_bg_contact.svg');
-    background-color: #6070FF;
+    background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
@@ -512,9 +509,7 @@ button[type="submit"] {
     margin: 22px auto 44px auto;
   }
 
-  #contact-page-scroll{
-    display:none;
+  #contact-page-scroll {
+    display: none;
   }
-
 }
-
