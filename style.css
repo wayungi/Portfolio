@@ -443,6 +443,12 @@ button[type="submit"] {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 1s ease-in-out 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 5px 1px #666a70;
   }
 
   .txt-content {
