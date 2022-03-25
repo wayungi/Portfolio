@@ -36,6 +36,7 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  padding:40px;
 }
 
 .logo {
@@ -554,4 +555,38 @@ button[type="submit"] {
     font-size: 40px;
     line-height: 52px;
   }
+
+  /* animate logo */
+
+  @keyframes logo-anim{
+    from{
+      transform:rotate(0deg);
+    }
+
+    33%{
+      color:#c42c91;
+    }
+
+    50%{
+      color:#6070ff;
+    }
+
+    66%{
+      color:#c42c91;
+    }
+
+    to{
+      transform:rotate(360deg)
+    }
+
+  }
+
+  .logo-ph, .logo{
+    animation-name:logo-anim;
+    animation-duration: 2s;
+  }
+
+  /* @keyframes color-animation {
+    
+  } */
 }
