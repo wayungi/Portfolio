@@ -576,13 +576,10 @@ button[type="submit"] {
     }
   }
 
-  .logo-ph,
-  .logo {
+  .logo-ph {
     animation-name: logo-anim;
     animation-duration: 2s;
   }
 
-  /* @keyframes color-animation {
 
-  } */
 }
