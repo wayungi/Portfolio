@@ -16,11 +16,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-- A web browser
-
-### Deployment
-- Run the index.html file
+  - Download files
+  - Run index.html in browser
 
 ## Authors
 
