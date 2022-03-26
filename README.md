@@ -16,11 +16,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-- A web browser
-
-### Deployment
-- Run the index.html file
+  - Download files
+  - Run index.html in browser
 
 ## Authors
 
@@ -29,12 +26,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/wayungi)
 - Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
-
-👤 Lucas Costa Rodrigues 
-- GitHub: @lucas-crodrigues 
-- Twitter: @lcrodrigues58 
-- LinkedIn: https://www.linkedin.com/in/lucascostarodrigues/ 
-
 
 ## 🤝 Contributing
 

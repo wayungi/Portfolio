@@ -9,26 +9,36 @@
     <title>Document</title>
   </head>
   <body>
+
     <div class="page-wrapper">
-      <div class="signal-section">
-        <!-- <time datetime='9:41'>9:41</time> -->
-        <time datetime="2022-07-07T09:00:41" class="font">9:41</time>
-        <div class="phone-icons">
-          <img src="images/signal.png" alt="signal logo" />
-          <img src="images/Wifi.png" alt="wifi-icon" />
-          <img src="images/Battery.png" alt="battery icon" />
-        </div>
-      </div>
+      
       <header class="header-section">
-        <div class="logo-placeholder font">
-          <a href="#" class="logo">My Logo</a>
+        <div class="signal-section">
+          <time datetime="2022-07-07T09:00:41" class="font">9:41</time>
+          <div class="phone-icons">
+            <img src="images/signal.png" alt="signal logo" />
+            <img src="images/Wifi.png" alt="wifi-icon" />
+            <img src="images/Battery.png" alt="battery icon" />
+          </div>
         </div>
-        <nav class="main-nav"></nav>
+        <div class="logo_hambuger">
+          <div class="logo-ph font">
+            <a href="#" class="logo">My Logo</a>
+          </div>
+          <nav class="main-nav">
+            <!-- navigation on desktop screens only-->
+            <ul class="main-nav-desktop">
+              <li class="font"><a href="#">Portfolio</a></li>
+              <li class="font"><a href="#">About</a></li>
+              <li class="font"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
       <section class="introduction">
         <div class="welcome-note">
-          <h1 class="font">I’m Mariane Glad to see you!</h1>
+          <h1 class="font">I’m Francis<br/> Glad to see you!</h1>
           <p class="profile font">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -36,212 +46,163 @@
             contact me.
           </p>
           <a href="#" class="connect font">LET'S CONNECT</a>
-          <ul class="social">
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/twitter.png" alt="'twitter icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/linkedin.png" alt="linkedIn icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/medium.svg" alt="medium icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/github.svg" alt="github icon"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/handsign.svg" alt="handsign icon"
-              /></a>
-            </li>
-          </ul>
+          <div class="social">
+            <a href="#" class="social-links"><img src="images/twitter.svg" alt="'twitter icon"/></a>
+            <a href="#" class="social-links"><img src="images/linkedin.svg" alt="linkedIn icon"/></a>
+            <a href="#" class="social-links"><img src="images/medium.svg" alt="medium icon"/></a>
+            <a href="#" class="social-links"><img src="images/github.svg" alt="github icon"></a>           
+            <a href="#" class="social-links"><img src="images/handsign.svg" alt="handsign icon"/></a>
+          </div>
         </div>
       </section>
 
       <div class="works">
-        <article class="card-1 card">
-          <img src="images/portfolio1.jpg" alt="portfolio image" />
-          <h1 class="font">Tonic</h1>
-          <ul class="options">
-            <li class="no-image"><a href="" class="title font">CANOPY</a></li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">Back End Dev</a></span
-              >
-            </li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">2015</a></span
-              >
-            </li>
-          </ul>
-          <p class="font">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="language">
-            <li><a href="#" class="font">html</a></li>
-            <li><a href="#" class="font">css</a></li>
-            <li><a href="#" class="font">javascript</a></li>
-          </ul>
-          <button type="submit">See Project</button>
-        </article>
 
-        <article class="card-2 card">
-          <img src="images/portfolio2.jpg" alt="portfolio image" />
+        <div class="card-1 card">
+          <div class="card-partition img-content">
+           <img src="images/portfolio1.svg" alt="portfolio image" />
+          </div>
+          <article class="card-partition txt-content">
+            <h1 class="font">Tonic</h1>
+            <div class="options">
+              <a href="" class="title font no-image">CANOPY</a>
+              <a href="" class="role-year font">Back End Dev</a>
+              <a href="" class="role-year font">2015</a>
+            </div>
+            <p class="font">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="language">
+              <a href="#" class="font">html</a>
+              <a href="#" class="font">css</a>
+              <a href="#" class="font">javascript</a>
+            </div>
+            <button type="submit">See Project</button>
+          </article>
+        </div>
+
+        <div class="card-2 card">
+          <div class="card-partition re-order img-content">
+            <img src="images/portfolio2.svg" alt="portfolio image" />
+          </div>
+          <article class="card-partition txt-content">
+            <h1 class="font">Multi-Post Stories</h1>
+            <div class="options">
+              <a href="" class="title font">CANOPY</a>
+              <a href="" class="role-year font">Back End Dev</a>
+              <a href="" class="role-year font">2015</a>
+            </div>
+            <p class="font">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="language">
+              <a href="#" class="font">html</a>
+              <a href="#" class="font">css</a>
+              <a href="#" class="font">javascript</a>
+            </div>
+            <button type="submit">See Project</button>
+          </article>
+        </div>
+
+        <div class="card-3 card">
+          <div class="card-partition img-content">
+            <img src="images/portfolio3.svg" alt="portfolio image" />
+          </div>
+          <article class="card-partition txt-content">
+            <h1 class="font">Tonic</h1>
+            <div class="options">
+              <a href="" class="title font no-image">CANOPY</a>
+              <a href="" class="role-year font">Back End Dev</a>
+              <a href="" class="role-year font">2015</a>
+            </div>
+            <p class="font">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div class="language">
+              <a href="#" class="font">html</a>
+              <a href="#" class="font">css</a>
+              <a href="#" class="font">javascript</a>
+            </div>
+            <button type="submit" class="font">See Project</button>
+          </article>
+        </div>
+
+        <div class="card-4 card">
+          <div class="card-partition re-order img-content">
+          <img src="images/portfolio4.svg" alt="portfolio image" />
+          </div>
+          <article class="card-partition txt-content">
           <h1 class="font">Multi-Post Stories</h1>
-          <ul class="options">
-            <li class="no-image"><a href="" class="title font">CANOPY</a></li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">Back End Dev</a></span
-              >
-            </li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">2015</a></span
-              >
-            </li>
-          </ul>
+          <div class="options">
+           <a href="" class="title font">CANOPY</a>
+           <a href="" class="role-year font">Back End Dev</a>
+           <a href="" class="role-year font">2015</a>
+          </div>
           <p class="font">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul class="language">
-            <li><a href="#" class="font">html</a></li>
-            <li><a href="#" class="font">css</a></li>
-            <li><a href="#" class="font">javascript</a></li>
-          </ul>
+          <div class="language">
+            <a href="#" class="font">html</a>
+            <a href="#" class="font">css</a>
+            <a href="#" class="font">javascript</a>
+          </div>
           <button type="submit">See Project</button>
         </article>
-
-        <article class="card-3 card">
-          <img src="images/portfolio3.jpg" alt="portfolio image" />
-          <h1 class="font">Tonic</h1>
-          <ul class="options">
-            <li class="no-image"><a href="" class="title font">CANOPY</a></li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">Back End Dev</a></span
-              >
-            </li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">2015</a></span
-              >
-            </li>
-          </ul>
-          <p class="font">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="language">
-            <li><a href="#" class="font">html</a></li>
-            <li><a href="#" class="font">css</a></li>
-            <li><a href="#" class="font">javascript</a></li>
-          </ul>
-          <button type="submit">See Project</button>
-        </article>
-
-        <article class="card-4 card">
-          <img src="images/portfolio4.jpg" alt="portfolio image" />
-          <h1 class="font">Multi-Post Stories</h1>
-          <ul class="options">
-            <li class="no-image"><a href="" class="title font">CANOPY</a></li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">Back End Dev</a></span
-              >
-            </li>
-            <li>
-              <span class="spacer"
-                ><a href="" class="role-year font">2015</a></span
-              >
-            </li>
-          </ul>
-          <p class="font">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="language">
-            <li><a href="#" class="font">html</a></li>
-            <li><a href="#" class="font">css</a></li>
-            <li><a href="#" class="font">javascript</a></li>
-          </ul>
-          <button type="submit">See Project</button>
-        </article>
+        </div>
       </div>
 
-      <article class="about-me">
-        <h1 class="font">About <br />Myself</h1>
-        <p class="font">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <a href="#" class="connect font">LET'S CONNECT</a>
-        <ul class="social">
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/twitter.png" alt="'twitter icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/linkedin.png" alt="linkedIn icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/medium.svg" alt="medium icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/github.svg" alt="github icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/handsign.svg" alt="handsign icon"
-            /></a>
-          </li>
-        </ul>
-        <button type="submit">Get My Resume</button>
-        <ul>
-          <li class="font main-skill key-area more">langauges</li>
-          <li class="font main-skill js-icon">Javascript</li>
-          <li class="font main-skill html-icon">HTML</li>
-          <li class="font main-skill css-icon">CSS</li>
-          <li class="font main-skill key-area next">frameworks</li>
-          <li class="font main-skill key-area next">skills</li>
-        </ul>
-      </article>
+      <div class="about-me">
+        <article class="card-partition about-me-text part-2" >
+          <h1 class="font">About <br/>Myself</h1>
+          <p class="font">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If you
+            like what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <a href="#" class="connect font">LET'S CONNECT</a>
+          <div class="">
+            <a href="#" class="social-links"><img src="images/twitter.svg" alt="'twitter icon"/></a>
+            <a href="#" class="social-links"><img src="images/linkedin.svg" alt="linkedIn icon"/></a>
+            <a href="#" class="social-links"><img src="images/medium.svg" alt="medium icon"/></a>
+            <a href="#" class="social-links"><img src="images/github.svg" alt="github icon"></a>           
+            <a href="#" class="social-links"><img src="images/handsign.svg" alt="handsign icon"/></a>
+          </div>
+          <button type="submit">Get My Resume</button>
+        </article>
+        <div class="card-partition part-2">
+          <div class="pro-skills">
+            <a href="" class="font main-skill key-area more">Langauges</a>
+            <div class="nested">
+              <a href="#" class="font main-skill js-icon">Javascript</a>
+              <a href="#" class="font main-skill html-icon">HTML</a>
+              <a href="#" class="font main-skill css-icon">CSS</a>
+            </div>
+            <a href="" class="font main-skill key-area next">Frameworks</a>
+            <a href="" class="font main-skill key-area next">Skills</a>
+          </div>
+        </div>
+      </div>
 
       <!-- contact form -->
-      <section class="contact-page">
-        <div class="background-one">
-        <h1 class="contact-page-title">Contact me</h1>
-        <p class="contact-page-info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-          I’d love to help with it </p>
-        <form action="https://formspree.io/f/xqknlvdq" method="post">      
-          <input type="text" id="name" name="user_name" placeholder="Type your name here" maxlength="30" required>          
-          <input type="email" id="email" name="user_email" placeholder="Type your email here" required>          
-          <textarea id="message" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
-          <button type="submit">Get in touch</button>
-        </form>
-        <div id="contact-page-scroll"></div>
+      <div class="contact-page">
+        <section class="background-one">
+          <h1 class="contact-page-title font">Contact me</h1>
+          <p class="contact-page-info">If you have an application you are interested in developing,
+             a feature that you need built or a project that needs coding. I’d love to help with it </p>
+          <form action="https://formspree.io/f/xqknlvdq" method="post">      
+            <input type="text" class="font" id="name" name="user_name" placeholder="Type your name here" maxlength="30" required>          
+            <input type="email" class="font" id="email" name="user_email" placeholder="Type your email here" required>          
+            <textarea id="message" class="font" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
+            <button type="submit">Get in touch</button>
+          </form>
+          <div id="contact-page-scroll"></div>
+        </section>
       </div>
-      </section>
 
     </div>
   </body>
