@@ -36,6 +36,7 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  padding: 40px;
 }
 
 .logo {
@@ -223,6 +224,7 @@ button {
   color: #396df2;
   border: 1px solid #6070ff;
   border-radius: 5px;
+  transition: all 0.5s ease-out;
 }
 
 button:hover {
@@ -439,6 +441,12 @@ button[type="submit"] {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 1s ease-in-out 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 1px #666a70;
   }
 
   .txt-content {
@@ -542,5 +550,34 @@ button[type="submit"] {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+  }
+
+  /* animate logo */
+
+  @keyframes logo-anim {
+    from {
+      transform: rotate(0deg);
+    }
+
+    33% {
+      color: #c42c91;
+    }
+
+    50% {
+      color: #6070ff;
+    }
+
+    66% {
+      color: #c42c91;
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo-ph {
+    animation-name: logo-anim;
+    animation-duration: 2s;
   }
 }
