@@ -247,7 +247,7 @@ button:active {
   padding: 114px 150px 113.85px 150px;
 }
 
-.about-me h1 {
+.about-me h2 {
   font-weight: 700;
   font-size: 50px;
   line-height: 52px;
@@ -338,7 +338,7 @@ button:active {
   align-items: center;
 }
 
-.background-one h1 {
+.background-one h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -508,7 +508,7 @@ button[type="submit"] {
   }
 
   .contact-page {
-    background-image: url('images/desktop_bg_contact.svg');
+    background-image: url("images/desktop_bg_contact.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
