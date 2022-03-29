@@ -40,7 +40,7 @@ p {
 }
 
 .logo {
-  color: #6070ff;
+  color: rgb(17 98 208);
 }
 
 time {
@@ -206,10 +206,10 @@ a.connect:active {
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: rgb(4 23 185);
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
