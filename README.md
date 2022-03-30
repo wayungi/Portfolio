@@ -27,6 +27,16 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
 
+👤 **Bassem shams **
+
+- GitHub: [@githubhandle](https://github.com/basem909)
+
+👤 **Mariana Revilla Lérida**
+
+- GitHub: [@marurevi](https://github.com/marurevi)
+- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
+- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-lérida-a12aba143)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
