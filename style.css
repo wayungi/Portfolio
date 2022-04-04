@@ -54,9 +54,6 @@ time {
   height: 40px;
   width: 40px;
   margin-right: 36px;
-  background-image: url("images/icon-menu.png");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
 }
 
