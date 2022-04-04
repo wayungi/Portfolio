@@ -57,6 +57,17 @@ time {
   cursor: pointer;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.bar {
+  border: 1px solid #acb7c3;
+  margin-bottom: 5px;
+  width: 18px;
+}
+
 /* hide desktop navigation on small screens */
 .main-nav-desktop {
   display: none;
