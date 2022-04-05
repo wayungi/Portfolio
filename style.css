@@ -52,6 +52,7 @@ time {
   height:100vh;
   background-color:rgba(96,112,255, .9);
   padding-left:30px;
+  display:none;
 }
 
 .close{
@@ -90,7 +91,7 @@ time {
   border: 1px solid #acb7c3;
   width: 25px;
   margin:2px;
-}
+  }
 
 .nav-brand{
   font-family: 'Poppins';
@@ -433,36 +434,7 @@ button[type="submit"] {
     display: none;
   }
 
-  /* hide the humbergur on desktop */
-
-  /* .main-nav {
-    background-image: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin-right: 90px;
-    width: fit-content;
-  }
-
-  .main-nav-desktop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .main-nav-desktop li {
-    padding-right: 32px;
-  }
-
-  .main-nav-desktop li:nth-child(3n) {
-    padding-right: 0;
-  } */
-
+ 
   .introduction {
     padding: 150px 164px 250px 164px;
   }
