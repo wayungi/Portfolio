@@ -13,7 +13,7 @@ p {
 
 .page-wrapper {
   background-color: #e5e5e5;
-  min-width: 375px;
+  /* min-width: 375px; */
 }
 
 .page-wrapper,
@@ -36,7 +36,6 @@ time {
 }
 
 .navbar {
-  /* outline: 1px solid black; */
   display: flex;
   justify-content: space-between;
   min-height: 40px;
@@ -57,7 +56,6 @@ time {
   height:100vh;
   background-color:rgba(96,112,255, .9);
   padding-left:30px;
-  display:none;
 }
 
 .close{
@@ -66,7 +64,7 @@ time {
   font-size: 20px;
   color:#fff;
   margin-bottom:80px;
-  position:reltive;
+  position:relative;
   margin-left:80%;
   margin-top:20px;
   font-stretch: ultra-expanded;
@@ -104,7 +102,7 @@ time {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20p
+  line-height: 20px;
 }
 
 .social,
