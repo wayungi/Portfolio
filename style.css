@@ -39,7 +39,7 @@ time {
 .navbar {
   display: flex;
   justify-content: space-between;
-  min-height: 40px;
+  min-height: 50px;
   align-items: center;
   padding: 0 30px;
 }
@@ -106,6 +106,10 @@ time {
   line-height: 20px;
 }
 
+a.nav-brand{
+  text-decoration: none;
+}
+
 .social,
 .options,
 .contact-page {
@@ -123,9 +127,9 @@ time {
   border-bottom-left-radius: 70px;
 }
 
-/* header {
+header {
   background-color: #fff;
-} */
+}
 
 .font {
   font-family: "Poppins", sans-serif;
