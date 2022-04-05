@@ -127,10 +127,6 @@ a {
   border-bottom-left-radius: 70px;
 }
 
-/* header {
-  background-color: #fff;
-} */
-
 .font {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -431,6 +427,20 @@ button[type="submit"] {
   border-radius: 50%;
 }
 
+/* model window styles */
+.modal {
+  position:fixed;
+  top:30vh;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border:1px solid black;
+  z-index:5;
+  max-width: 90%;
+  min-width: 90%;
+  border-radius:5px;
+  background-color: #fff;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
@@ -482,7 +492,7 @@ button[type="submit"] {
 
  
 
- 
+w      
   .introduction {
     padding: 150px 164px 250px 164px;
   }
