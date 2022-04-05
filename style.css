@@ -46,7 +46,10 @@ time {
 
 /* hide ul  for small screens */
 .nav-menu {
-  display: none;
+  /* display: none; */
+  outline: 1px solid red;
+  position:fixed;
+  width:100%;
 }
 
 .hamburger {
