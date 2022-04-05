@@ -13,6 +13,7 @@ p {
 
 .page-wrapper {
   background-color: #e5e5e5;
+
   /* min-width: 375px; */
 }
 
@@ -40,46 +41,46 @@ time {
   justify-content: space-between;
   min-height: 40px;
   align-items: center;
-  padding:0 30px;
+  padding: 0 30px;
 }
 
-.hide{
-  display:none;
+.hide {
+  display: none;
 }
 
 /* hide navigation menu  for small screens */
 .nav-holder {
-  position:fixed;
+  position: fixed;
   top: 0;
-  left:0;
-  width:100%;
-  height:100vh;
-  background-color:rgba(96,112,255, .9);
-  padding-left:30px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.9);
+  padding-left: 30px;
 }
 
-.close{
-  display:inline-block;
-  font-family:'Courier New', Courier, monospace;
+.close {
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  color:#fff;
-  margin-bottom:80px;
-  position:relative;
-  margin-left:80%;
-  margin-top:20px;
+  color: #fff;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: 80%;
+  margin-top: 20px;
   font-stretch: ultra-expanded;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.nav-item a{
-  color:#fff;
+.nav-item a {
+  color: #fff;
 }
 
-.nav-menu li{
+.nav-menu li {
   list-style: none;
   text-decoration: none;
-  margin:15px;
-  font-family: 'Poppins';
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -87,18 +88,18 @@ time {
 }
 
 .hamburger {
-  display:flex;
-  flex-direction: column;  
+  display: flex;
+  flex-direction: column;
 }
 
 .bar {
   border: 1px solid #acb7c3;
   width: 25px;
-  margin:2px;
-  }
+  margin: 2px;
+}
 
-.nav-brand{
-  font-family: 'Poppins';
+.nav-brand {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -111,11 +112,6 @@ time {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-/* for all a tags */
-a {
-  text-decoration: none;
 }
 
 .introduction {
@@ -278,7 +274,7 @@ button:active {
   flex-direction: column;
   background-color: #fff;
   border-top-right-radius: 70px;
-  padding: 114px 150px 113.85px 150px;
+  padding: 114px 40px 113.85px 40px;
 }
 
 .about-me h2 {
@@ -366,7 +362,8 @@ button:active {
   border-top-left-radius: 70px;
   background-image: url("images/contact-form-bg.svg");
   background-repeat: no-repeat;
-  background-position: 100% 80%;
+
+  /* background-position: 100% 80%; */
   background-size: contain;
   padding: 0 15%;
   align-items: center;
@@ -438,51 +435,55 @@ button[type="submit"] {
     display: none;
   }
 
-  .navbar{
-    display:flex;
-    flex-direction:row;
-    outline:1px solid red;
-    height:80px;
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid red;
+    height: 80px;
     align-items: center;
-    padding:0 100px;
+    padding: 0 100px;
     background: #fff;
   }
 
-  .close, .hamburger{
-    display:none;
+  .close,
+  .hamburger {
+    display: none;
   }
 
   .nav-holder {
-    display:block;
-    position:relative;
-    width:fit-content;
+    display: block;
+    position: relative;
+    width: fit-content;
     height: auto;
-    background-color:#fff;
-    padding-left:0;
+    background-color: #fff;
+    padding-left: 0;
+
     /* outline:1px solid blue; */
   }
 
-  .nav-item a{
-    color: #344563;
-    ;
-  }
-  
-  .nav-menu{
-    display:flex;
+  /* for all a tags */
+  a {
+    text-decoration: none;
   }
 
-  .nav-menu li{
+  .nav-item a {
+    color: #344563;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
     list-style: none;
     text-decoration: none;
+
     /* margin:15px; */
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
   }
 
- 
-
- 
   .introduction {
     padding: 150px 164px 250px 164px;
   }
