@@ -43,9 +43,8 @@ time {
   align-items: center;
 }
 
-/* hide ul  for small screens */
+/* hide navigation menu  for small screens */
 .nav-holder {
-  /* display: none; */
   position:fixed;
   top: 0;
   left:0;
@@ -63,7 +62,8 @@ time {
   margin-bottom:80px;
   position:reltive;
   margin-left:80%;
-  margin-top:20px
+  margin-top:20px;
+  font-stretch: ultra-expanded;
 }
 
 .nav-item a{
