@@ -69,17 +69,6 @@ time {
   width: 18px;
 }
 
-/* hide desktop navigation on small screens */
-.main-nav-desktop {
-  /*display: none;*/
-  background-color: #6070ff;
-  width: 100%;
-}
-
-.main-nav-desktop.active {
-  background-color: #6070ff;
-}
-
 .logo_hambuger,
 .social,
 .options,
@@ -108,9 +97,9 @@ a {
   border-bottom-left-radius: 70px;
 }
 
-header {
+/* header {
   background-color: #fff;
-}
+} */
 
 .font {
   font-family: "Poppins", sans-serif;
