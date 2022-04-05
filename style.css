@@ -438,6 +438,50 @@ button[type="submit"] {
     display: none;
   }
 
+  .navbar{
+    display:flex;
+    flex-direction:row;
+    outline:1px solid red;
+    height:80px;
+    align-items: center;
+    padding:0 100px;
+    background: #fff;
+  }
+
+  .close, .hamburger{
+    display:none;
+  }
+
+  .nav-holder {
+    display:block;
+    position:relative;
+    width:fit-content;
+    height: auto;
+    background-color:#fff;
+    padding-left:0;
+    /* outline:1px solid blue; */
+  }
+
+  .nav-item a{
+    color: #344563;
+    ;
+  }
+  
+  .nav-menu{
+    display:flex;
+  }
+
+  .nav-menu li{
+    list-style: none;
+    text-decoration: none;
+    /* margin:15px; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+ 
+
  
   .introduction {
     padding: 150px 164px 250px 164px;
