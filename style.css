@@ -41,6 +41,7 @@ time {
   justify-content: space-between;
   min-height: 40px;
   align-items: center;
+  padding:0 30px;
 }
 
 /* hide ul  for small screens */
@@ -50,16 +51,21 @@ time {
 
 .hamburger {
   display:flex;
-  flex-direction: column;
-  /* outline: 1px solid red; */
-  margin-right:36px;
-  
+  flex-direction: column;  
 }
 
 .bar {
   border: 1px solid #acb7c3;
   width: 25px;
   margin:2px;
+}
+
+.nav-brand{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20p
 }
 
 .social,
