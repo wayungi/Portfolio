@@ -52,6 +52,11 @@ time {
   width:100%;
 }
 
+.nav-menu li{
+  list-style: none;
+  text-decoration: none;
+}
+
 .hamburger {
   display:flex;
   flex-direction: column;  
