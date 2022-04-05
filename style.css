@@ -41,6 +41,7 @@ time {
   justify-content: space-between;
   min-height: 40px;
   align-items: center;
+  padding:0 30px;
 }
 
 /* hide navigation menu  for small screens */
