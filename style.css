@@ -45,7 +45,7 @@ time {
 }
 
 /* hide ul  for small screens */
-.nav-menu {
+.nav-holder {
   /* display: none; */
   position:fixed;
   top: 0;
