@@ -31,10 +31,19 @@ p {
   padding: 17.33px 14.67px 0 40px;
 }
 
-/
-
 time {
   display: block;
+}
+
+.navbar{
+  outline:1px solid black;
+  display:flex;
+  justify-content: space-between;
+}
+
+/* hide ul  for small screens*/
+.nav-menu{
+  display:none;
 }
 
 .social,
