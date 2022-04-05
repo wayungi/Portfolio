@@ -35,15 +35,31 @@ time {
   display: block;
 }
 
-.navbar{
-  outline:1px solid black;
-  display:flex;
+.navbar {
+  /* outline: 1px solid black; */
+  display: flex;
   justify-content: space-between;
+  min-height: 40px;
+  align-items: center;
 }
 
-/* hide ul  for small screens*/
-.nav-menu{
-  display:none;
+/* hide ul  for small screens */
+.nav-menu {
+  display: none;
+}
+
+.hamburger {
+  display:flex;
+  flex-direction: column;
+  /* outline: 1px solid red; */
+  margin-right:36px;
+  
+}
+
+.bar {
+  border: 1px solid #acb7c3;
+  width: 25px;
+  margin:2px;
 }
 
 .social,
@@ -380,6 +396,7 @@ button[type="submit"] {
   }
 
   /* hide the humbergur on desktop */
+
   /* .main-nav {
     background-image: none;
     display: flex;
