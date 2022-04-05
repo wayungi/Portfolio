@@ -31,56 +31,18 @@ p {
   padding: 17.33px 14.67px 0 40px;
 }
 
-.logo-ph {
-  margin-left: 24px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 40px;
-}
-
-.logo {
-  color: rgb(17 98 208);
-}
+/
 
 time {
   display: block;
 }
 
-.main-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  height: 40px;
-  width: 40px;
-  margin-right: 36px;
-  cursor: pointer;
-}
-
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-}
-
-.bar {
-  border: 1px solid #acb7c3;
-  margin-bottom: 5px;
-  width: 18px;
-}
-
-.logo_hambuger,
 .social,
 .options,
 .contact-page {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-.logo_hambuger {
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* for all a tags */
@@ -409,7 +371,7 @@ button[type="submit"] {
   }
 
   /* hide the humbergur on desktop */
-  .main-nav {
+  /* .main-nav {
     background-image: none;
     display: flex;
     flex-direction: row;
@@ -435,7 +397,7 @@ button[type="submit"] {
 
   .main-nav-desktop li:nth-child(3n) {
     padding-right: 0;
-  }
+  } */
 
   .introduction {
     padding: 150px 164px 250px 164px;
