@@ -441,6 +441,15 @@ button[type="submit"] {
   background-color: #fff;
 }
 
+
+button.close-modal{
+  margin:0;
+  padding:0;
+}
+.modal header{
+  outline:1px solid red;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
