@@ -398,6 +398,12 @@ input{
   padding-left:10px;
 }
 
+textarea {
+  height: 170px;
+  box-sizing: border-box;
+  padding:10px 0;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
