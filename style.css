@@ -356,11 +356,6 @@ button:active {
   background-position: 90% 50%;
 }
 
-/* conatct form page */
-.contact-page {
-  background-color: #fff;
-}
-
 .background-one {
   background-color: #6070ff;
   border-top-left-radius: 70px;
@@ -425,12 +420,36 @@ button[type="submit"] {
   margin: 22px 0;
 }
 
+.contact-page {
+  background-image: url("images/desktop_bg_contact.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  outline:1px solid black;
+  background-color: #fff;
+}
+
+
+#contact-page-scroll {
+  display: none;
+}
+
+.contact-page-info {
+  text-align: center;
+}
+
+/* conatct form page */
+.contact-page {
+  background-color: #fff;
+}
+
 #contact-page-scroll {
   outline: 1px solid black;
   width: 60px;
   margin: 12px auto;
   border-radius: 50%;
 }
+
 
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
@@ -562,24 +581,10 @@ button[type="submit"] {
     margin: 10px;
   }
 
-  .contact-page {
-    background-image: url("images/desktop_bg_contact.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
-  }
-
   button[type="submit"] {
     margin: 22px auto 44px auto;
   }
 
-  #contact-page-scroll {
-    display: none;
-  }
-
-  .contact-page-info {
-    text-align: center;
-  }
 
   input,
   textarea {
