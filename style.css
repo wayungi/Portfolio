@@ -381,6 +381,12 @@ p.contact-page-info{
   text-align: center
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 0;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
