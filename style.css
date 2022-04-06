@@ -354,6 +354,10 @@ button:active {
   background-position: 90% 50%;
 }
 
+.contact-page{
+  background-color: white;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
