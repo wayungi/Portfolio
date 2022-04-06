@@ -404,6 +404,11 @@ textarea {
   padding:10px 0;
 }
 
+button[type="submit"] {
+  width: 150px;
+  margin: 22px 0;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
