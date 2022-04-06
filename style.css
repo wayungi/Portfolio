@@ -387,6 +387,17 @@ form {
   margin: 50px 0 0 0;
 }
 
+input{
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  color:#172B4D;
+  padding-left:10px;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
