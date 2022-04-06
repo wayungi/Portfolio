@@ -13,7 +13,6 @@ p {
 
 .page-wrapper {
   background-color: #e5e5e5;
-  min-width: 375px;
 }
 
 .page-wrapper,
@@ -31,57 +30,90 @@ p {
   padding: 17.33px 14.67px 0 40px;
 }
 
-.logo-ph {
-  margin-left: 24px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 40px;
-}
-
-.logo {
-  color: rgb(17 98 208);
-}
-
 time {
   display: block;
 }
 
-.main-nav {
+.navbar {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  height: 40px;
-  width: 40px;
-  margin-right: 36px;
-  background-image: url("images/icon-menu.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
+  justify-content: space-between;
+  min-height: 50px;
+  align-items: center;
+  padding: 0 30px;
 }
 
-/* hide desktop navigation on small screens */
-.main-nav-desktop {
+.hide {
   display: none;
 }
 
-.logo_hambuger,
+/* hide navigation menu  for small screens */
+.nav-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.9);
+  padding-left: 30px;
+}
+
+.close {
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: 80%;
+  margin-top: 20px;
+  font-stretch: ultra-expanded;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+.nav-menu li {
+  list-style: none;
+  text-decoration: none;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  border: 1px solid #6070ff;
+  width: 25px;
+  margin: 2px;
+}
+
+.nav-brand {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+a.nav-brand {
+  text-decoration: none;
+}
+
 .social,
 .options,
 .contact-page {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-.logo_hambuger {
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* for all a tags */
-a {
-  text-decoration: none;
 }
 
 .introduction {
@@ -244,7 +276,7 @@ button:active {
   flex-direction: column;
   background-color: #fff;
   border-top-right-radius: 70px;
-  padding: 114px 150px 113.85px 150px;
+  padding: 114px 40px 113.85px 40px;
 }
 
 .about-me h2 {
@@ -322,79 +354,58 @@ button:active {
   background-position: 90% 50%;
 }
 
-/* conatct form page */
 .contact-page {
-  background-color: #fff;
+  background-color: white;
 }
 
 .background-one {
-  background-color: #6070ff;
+  display: flex;
+  padding: 24px;
   border-top-left-radius: 70px;
+  align-items: center;
+  background-color: #6070ff;
+  color: #fff;
   background-image: url("images/contact-form-bg.svg");
   background-repeat: no-repeat;
-  background-position: 100% 80%;
-  background-size: contain;
-  padding: 0 15%;
-  align-items: center;
+  background-position: top 0 right 0;
 }
 
-.background-one h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+p.contact-page-info {
   color: #fff;
-  justify-content: center;
-}
-
-.background-one p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
-  color: #ebebff;
   text-align: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  margin: 87px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
-input[type="text"],
-input[type="email"] {
+input {
   height: 50px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   background: #fff;
   margin-bottom: 20px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
   box-sizing: border-box;
-  padding: 12px 10px;
+  color: #172b4d;
+  padding-left: 10px;
 }
 
 textarea {
   height: 170px;
+  box-sizing: border-box;
+  padding: 10px 0;
 }
 
 button[type="submit"] {
   width: 150px;
   margin: 22px 0;
-}
-
-#contact-page-scroll {
-  outline: 1px solid black;
-  width: 60px;
-  margin: 12px auto;
-  border-radius: 50%;
 }
 
 /* Styles for viewports wider than 768 pixels. */
@@ -404,33 +415,51 @@ button[type="submit"] {
     display: none;
   }
 
-  /* hide the humbergur on desktop */
-  .main-nav {
-    background-image: none;
+  .navbar {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    outline: 1px solid red;
+    height: 80px;
     align-items: center;
-    margin-right: 90px;
-    width: fit-content;
+    padding: 0 100px;
+    background: #fff;
   }
 
-  .main-nav-desktop {
+  .close,
+  .hamburger {
+    display: none;
+  }
+
+  .nav-holder {
+    display: block;
+    position: relative;
+    width: fit-content;
+    height: auto;
+    background-color: #fff;
+    padding-left: 0;
+  }
+
+  /* for all a tags */
+  a {
+    text-decoration: none;
+  }
+
+  .nav-item a {
+    color: #344563;
+  }
+
+  .nav-menu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  }
+
+  .nav-menu li {
     list-style: none;
+    text-decoration: none;
+
+    /* margin:15px; */
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .main-nav-desktop li {
-    padding-right: 32px;
-  }
-
-  .main-nav-desktop li:nth-child(3n) {
-    padding-right: 0;
   }
 
   .introduction {
@@ -507,23 +536,8 @@ button[type="submit"] {
     margin: 10px;
   }
 
-  .contact-page {
-    background-image: url("images/desktop_bg_contact.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
-  }
-
   button[type="submit"] {
     margin: 22px auto 44px auto;
-  }
-
-  #contact-page-scroll {
-    display: none;
-  }
-
-  .contact-page-info {
-    text-align: center;
   }
 
   input,

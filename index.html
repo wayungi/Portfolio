@@ -10,7 +10,9 @@
   </head>
   <body>
     <div class="page-wrapper">
+
       <header class="header-section">
+
         <div class="signal-section">
           <time datetime="2022-07-07T09:00:41" class="font">9:41</time>
           <div class="phone-icons">
@@ -19,20 +21,36 @@
             <img src="images/Battery.png" alt="battery icon" />
           </div>
         </div>
-        <div class="logo_hambuger">
-          <div class="logo-ph font">
-            <a href="#" class="logo">My Logo</a>
-          </div>
-          <nav class="main-nav">
-            <!-- navigation on desktop screens only-->
-            <ul class="main-nav-desktop">
-              <li class="font"><a href="#">Portfolio</a></li>
-              <li class="font"><a href="#">About</a></li>
-              <li class="font"><a href="#">Contact</a></li>
+
+        <nav class="navbar">
+          <a href="#" class="nav-brand">My Logo</a>
+
+          <div class="nav-holder hide">
+            <span class="close">&times;</span>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
             </ul>
-          </nav>
-        </div>
+          </div>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          
+        </nav>
+        
       </header>
+
+
 
       <section class="introduction">
         <div class="welcome-note">
@@ -67,7 +85,7 @@
         </div>
       </section>
 
-      <div class="works">
+      <div class="works" id="portfolio">
         <div class="card-1 card">
           <div class="card-partition img-content">
             <img
@@ -177,7 +195,7 @@
         </div>
       </div>
 
-      <div class="about-me">
+      <div class="about-me" id="about">
         <article class="card-partition about-me-text part-2">
           <h2 class="font">About <br />Myself</h2>
           <p class="font">
@@ -221,7 +239,7 @@
       </div>
 
       <!-- contact form -->
-      <div class="contact-page">
+      <div class="contact-page" id="contact">
         <section class="background-one">
           <h2 class="contact-page-title font">Contact me</h2>
           <p class="contact-page-info">
@@ -261,5 +279,6 @@
         </section>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
