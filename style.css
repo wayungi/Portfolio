@@ -358,6 +358,18 @@ button:active {
   background-color: white;
 }
 
+.background-one{
+  display:flex;
+  padding:24px;
+  border-top-left-radius: 70px;
+  align-items: center;
+  background-color: #6070FF;
+  color:#fff;
+  background-image: url("images/contact-form-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
