@@ -16,15 +16,31 @@
 
 [Live Demo Link](https://wayungi.github.io/Portfolio/)
 
-
-## Getting Started
-
 To get a local copy up and running follow these simple example steps.
 
-  - Download files
-  - Run index.html in browser
+### Prerequisites
+* nodejs 12.x
+* npm - to install packages locally
 
+### Setup
+* git clone git@github.com:wayungi/Portfolio.git
 
+### Install
+* cd Portfolio
+* npm install
+
+### Usage
+N/A 
+
+### Lint code
+* npm run webhint
+* npm run stylelint
+
+### Run tests
+N/A
+
+### Deployment
+N/A
 
 ## Authors
 
@@ -34,15 +50,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
 
-👤 **Bassem shams **
+👤 **Axel soler**
 
-- GitHub: [@githubhandle](https://github.com/basem909)
-
-👤 **Mariana Revilla Lérida**
-
-- GitHub: [@marurevi](https://github.com/marurevi)
-- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
-- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-lérida-a12aba143)
+- GitHub:github https://github.com/AxelSoler
+- Twitter: twitter https://twitter.com/AxelSoler18
+- LinkedIn:https://www.linkedin.com/in/axel-soler-685985232/
 
 ## 🤝 Contributing
 
