@@ -17,3 +17,12 @@ hamburger.addEventListener('click', () => {
 Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () => {
   nav.classList.add('hide');
 }));
+
+form.addEventListener('submit', (e) => {
+  let emailRegex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')
+
+  if(!email.value.match(emailRegex)){
+      e.preventDefault();
+      errorDiv.innerText = 'Email address must be valid and in lowercase'
+  }
+})
