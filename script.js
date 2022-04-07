@@ -19,7 +19,7 @@ Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () =
 }));
 
 form.addEventListener('submit', (e) => {
-  const emailRegex = new RegExp('[a-z0-9]+@[a-z]+.[a-z]{2,3}');
+  const emailRegex = new RegExp('/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/');
 
   if (!email.value.match(emailRegex)) {
     e.preventDefault();
