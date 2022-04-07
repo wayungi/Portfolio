@@ -408,8 +408,8 @@ button[type="submit"] {
   margin: 22px 0;
 }
 
-.error{
-  color:rgb(218, 209, 209);
+.error {
+  color: rgb(218, 209, 209);
   font-size: 20px;
   margin-top: 5px;
 }
