@@ -2,8 +2,9 @@ const close = document.querySelector('.close');
 const nav = document.querySelector('.nav-holder');
 const navLinks = document.querySelectorAll('.nav-link');
 const hamburger = document.querySelector('.hamburger');
-const form = document.querySelector('.form')
-const email = document.querySelector('.email')
+const form = document.querySelector('.form');
+const email = document.querySelector('.email');
+const errorDiv = document.querySelector('.error');
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
