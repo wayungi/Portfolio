@@ -3,6 +3,7 @@ const nav = document.querySelector('.nav-holder');
 const navLinks = document.querySelectorAll('.nav-link');
 const hamburger = document.querySelector('.hamburger');
 
+
 close.addEventListener('click', () => {
   nav.classList.add('hide');
 });

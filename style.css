@@ -408,6 +408,12 @@ button[type="submit"] {
   margin: 22px 0;
 }
 
+.error{
+  color:rgb(218, 209, 209);
+  font-size: 20px;
+  margin-top: 5px;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
