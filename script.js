@@ -76,4 +76,12 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
+  const project = projects[+(e.target.name)]
 
+  
+  
+
+  modalWindow.classList.remove('close')
+  
+}));
