@@ -670,36 +670,3 @@ button.modal-button{
   flex-direction: row;
   
 }
-
-.tagline ul > li{
-  list-style: none;
-}
-
-.tagline a{
-  display:inline-block;
-  text-decoration: none;
-}
-
-.bg-dot{
-  padding-left: 20px;
-  padding-right:5px;
-  background-image: url('images/counter.svg');
-  background-repeat: no-repeat;
-  background-position: top 50% left 5%;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.modal-img{
-  outline:1px solid black;
-  margin-bottom:4px;
-}
-
-.modal-img img{
-  width:100%;
-}
-
-
