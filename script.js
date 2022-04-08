@@ -85,6 +85,24 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   modalTitle.textContent = project.name;
   innerModalHeader.appendChild(modalTitle)
 
+  const taglineDiv = createTag('div');
+  taglineDiv.classList.add('tagline');
+  const ul = createTag('ul');
+  const li1 = createTag('li');
+  li1.classList.add('title');
+  const li2 = createTag('li');
+  li2.classList.add('bg-dot')
+  const li3 = createTag('li');
+  li3.classList.add('bg-dot')
+  li1.appendChild(createTagWithAttribute('a',['href', '#', project.tagline[0]]));
+  li2.appendChild(createTagWithAttribute('a',['href', '#', project.tagline[1]]));
+  li3.appendChild(createTagWithAttribute('a',['href', '#', project.tagline[2]]))
+  ul.appendChild(li1);
+  ul.appendChild(li2);
+  ul.appendChild(li3);
+  taglineDiv.appendChild(ul)
+  modalBody.appendChild(taglineDiv);
+
   modalWindow.classList.remove('close')
   
 }));
