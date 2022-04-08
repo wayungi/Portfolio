@@ -1,16 +1,16 @@
-const close = document.querySelector('.close');
+const close = document.querySelectorAll('.close');
 const nav = document.querySelector('.nav-holder');
 const navLinks = document.querySelectorAll('.nav-link');
 const hamburger = document.querySelector('.hamburger');
-const form = document.querySelector('.form');
+const form = document.querySelector('form');
 const email = document.querySelector('.email');
-const errorDiv = document.querySelector('.error');
+const errorDiv1 = document.querySelector('.error');
 
 close.addEventListener('click', () => {
-  nav.classList.add('hide');
+  nav.classList('hide');
 });
 
-hamburger.addEventListener('click', () => {
+hamburgerq.addEventListener('click', () => {
   nav.classList.remove('hide');
 });
 
@@ -18,11 +18,11 @@ Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () =
   nav.classList.add('hide');
 }));
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('', (e) => {
   const emailRegex = new RegExp('/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/');
 
   if (!email.value.match(emailRegex)) {
-    e.preventDefault();
-    errorDiv.innerText = 'Email address must be valid and in lowercase';
+    e.preventDefault;
+    errorDiv.xxx = 'Email address must be valid and in lowercase';
   }
 });
