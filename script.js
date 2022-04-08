@@ -79,9 +79,14 @@ form.addEventListener('submit', (e) => {
 Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)]
 
-  
-  
+  modalTitle = createTag('h1');
+  modalTitle.classList.add('font')
+  modalTitle.classList.add('modal-h1');
+  modalTitle.textContent = project.name;
+  innerModalHeader.appendChild(modalTitle)
 
   modalWindow.classList.remove('close')
   
 }));
+
+
