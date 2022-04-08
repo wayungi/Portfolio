@@ -5,6 +5,7 @@ const hamburger = document.querySelector('.hamburger');
 const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorDiv = document.querySelector('.error');
+const projectBtns = document.querySelectorAll('.card  button')
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
@@ -26,3 +27,7 @@ form.addEventListener('submit', (e) => {
     errorDiv.innerText = 'Email address must be valid and in lowercase';
   }
 });
+
+Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
+  console.log('project btn clicked')
+}));

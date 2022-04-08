@@ -601,3 +601,23 @@ button[type="submit"] {
     animation-duration: 2s;
   }
 }
+
+/* modal window styles */
+.modal{
+  border:1px solid black;
+  min-height:20px;
+  z-index:5;
+  position:fixed;
+  top:10%;
+  left:10%;
+  width:80%;
+  margin:0 auto;
+  border-radius:5px;
+}
+
+.modal-header{
+  outline:1px solid green;
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
