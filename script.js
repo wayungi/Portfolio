@@ -123,3 +123,10 @@ function createTag(tagname){
   const elem = document.createElement(tagname)
   return elem
 }
+
+function createTagWithAttribute(tagName, [attribute, value, text]){
+  const tag = document.createElement(tagName);
+  tag.setAttribute(attribute, value)
+  tag.textContent = text
+  return tag
+}
