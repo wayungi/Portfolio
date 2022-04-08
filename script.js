@@ -6,6 +6,7 @@ const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorDiv = document.querySelector('.error');
 const projectBtns = document.querySelectorAll('.card  button')
+const modalBtn = document.querySelector('button.modal-button')
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
@@ -31,3 +32,7 @@ form.addEventListener('submit', (e) => {
 Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
   console.log('project btn clicked')
 }));
+
+modalBtn.addEventListener('click', () => {
+  console.log('modal button clicked')
+})
