@@ -130,3 +130,9 @@ function createTagWithAttribute(tagName, [attribute, value, text]){
   tag.textContent = text
   return tag
 }
+
+function createTagWithAttributeOnly(tagName, [attribute, value]){
+  const tag = document.createElement(tagName);
+  tag.setAttribute(attribute, value)
+  return tag
+}
