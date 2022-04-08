@@ -110,9 +110,11 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   modalBody.appendChild(imageDiv)
 
   const paragraph = createTag('p')
-  
+
   modalWindow.classList.remove('close')
   
 }));
 
-
+window.addEventListener('load', () => {
+  modalWindow.classList.add('close');
+})
