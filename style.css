@@ -674,3 +674,8 @@ button.modal-button{
 .tagline ul > li{
   list-style: none;
 }
+
+.tagline a{
+  display:inline-block;
+  text-decoration: none;
+}
