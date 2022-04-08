@@ -620,4 +620,16 @@ button[type="submit"] {
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+button.modal-button{
+  border:none;
+  margin:0;
+  padding:0;
+  font-size: 50px;
+  font-weight:lighter;
+  color:#67798E;
+  background: none;
 }
