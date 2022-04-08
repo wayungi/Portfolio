@@ -136,3 +136,10 @@ function createTagWithAttributeOnly(tagName, [attribute, value]){
   tag.setAttribute(attribute, value)
   return tag
 }
+
+modalBtn.addEventListener('click', () => {
+  modalWindow.classList.add('close');
+  innerModalHeader.innerHTML = '';
+  modalBody.innerHTML = '';
+  
+})
