@@ -692,3 +692,12 @@ button.modal-button{
   font-size: 13px;
   line-height: 16px;
 }
+
+.modal-img{
+  outline:1px solid black;
+  margin-bottom:4px;
+}
+
+.modal-img img{
+  width:100%;
+}
