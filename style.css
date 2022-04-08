@@ -679,3 +679,16 @@ button.modal-button{
   display:inline-block;
   text-decoration: none;
 }
+
+.bg-dot{
+  padding-left: 20px;
+  padding-right:5px;
+  background-image: url('images/counter.svg');
+  background-repeat: no-repeat;
+  background-position: top 50% left 5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
