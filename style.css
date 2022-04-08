@@ -602,29 +602,39 @@ button[type="submit"] {
   }
 }
 
+/* prevent page behind modal from scrolling */
+.still{
+  overflow-y:hidden;
+}
+
 /* modal window styles */
 .modal-window{
-  border:1px solid black;
-  min-height:20px;
   z-index:5;
   position:fixed;
   top:10%;
-  left:10%;
-  width:80%;
+  left:5%;
+  width:90%;
   margin:0 auto;
   border-radius:5px;
+  background-color: #fff;
+  border-radius:10px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  outline:1px solid green;
+  box-sizing:border-box;
+  padding:10px;
 }
 
 .modal-header{
-  outline:1px solid green;
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items:flex-start;
-  outline:1px solid black;
   padding:0;
   margin:0;
   box-sizing: border-box;
+  margin-bottom:8px;
 
 }
 
@@ -649,3 +659,47 @@ button.modal-button{
   padding:0;
   padding:0 10px;
 }
+
+.tagline{
+  height:20px;
+  margin-bottom:8px;
+} 
+
+.tagline ul{
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.tagline ul > li{
+  list-style: none;
+}
+
+.tagline a{
+  display:inline-block;
+  text-decoration: none;
+}
+
+.bg-dot{
+  padding-left: 20px;
+  padding-right:5px;
+  background-image: url('images/counter.svg');
+  background-repeat: no-repeat;
+  background-position: top 50% left 5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.modal-img{
+  outline:1px solid black;
+  margin-bottom:4px;
+}
+
+.modal-img img{
+  width:100%;
+}
+
+
