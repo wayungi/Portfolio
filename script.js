@@ -102,7 +102,12 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   ul.appendChild(li3);
   taglineDiv.appendChild(ul)
   modalBody.appendChild(taglineDiv);
-
+  
+  const imageDiv = createTag('div')
+  imageDiv.classList.add('modal-img')
+  const imgTag = createTagWithAttributeOnly('img', ['src',project.featuredImage])
+  imageDiv.appendChild(imgTag)
+  modalBody.appendChild(imageDiv)
   modalWindow.classList.remove('close')
   
 }));
