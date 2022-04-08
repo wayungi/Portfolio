@@ -670,3 +670,7 @@ button.modal-button{
   flex-direction: row;
   
 }
+
+.tagline ul > li{
+  list-style: none;
+}
