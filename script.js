@@ -118,3 +118,8 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
 window.addEventListener('load', () => {
   modalWindow.classList.add('close');
 })
+
+function createTag(tagname){
+  const elem = document.createElement(tagname)
+  return elem
+}
