@@ -7,6 +7,49 @@ const email = document.querySelector('.email');
 const errorDiv = document.querySelector('.error');
 const projectBtns = document.querySelectorAll('.card  button')
 const modalBtn = document.querySelector('button.modal-button')
+const projects = [
+  {
+    name:'Tonic',
+    tagline:['CANOPY','Back EndDev', '2015'],
+    description:'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage:'images/portfolio1.svg', 
+    technologies:['html','css','javascript'], 
+    live:'https://wayungi.github.io/Portfolio/',
+    source:'https://github.com/wayungi/Portfolio'
+  },
+  
+  {
+    name:'Multi-Post Stories',
+    tagline:['CANOPY','Back EndDev', '2015'],
+    description:'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage:'images/portfolio2.svg', 
+    technologies:['html','css','javascript'], 
+    live:'https://wayungi.github.io/Portfolio/',
+    source:'https://github.com/wayungi/Portfolio'
+  },
+
+  {
+    name:'Tonic',
+    tagline:['CANOPY','Back EndDev', '2015'],
+    description:'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage:'images/portfolio3.svg', 
+    technologies:['html','css','javascript'], 
+    live:'https://wayungi.github.io/Portfolio/',
+    source:'https://github.com/wayungi/Portfolio'
+  },
+
+  {
+    name:'Multi-Post Stories',
+    tagline:['CANOPY','Back EndDev', '2015'],
+    description:'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage:'images/portfolio4.svg', 
+    technologies:['html','css','javascript'], 
+    live:'https://wayungi.github.io/Portfolio/',
+    source:'https://github.com/wayungi/Portfolio'
+  }
+
+
+]
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
@@ -30,7 +73,10 @@ form.addEventListener('submit', (e) => {
 });
 
 Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
-  console.log('project btn clicked')
+ 
+
+
+  console.log((e.target.name))
 }));
 
 modalBtn.addEventListener('click', () => {
