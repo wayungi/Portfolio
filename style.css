@@ -640,6 +640,10 @@ button.modal-button{
   padding-left:10px
 }
 
+.modal-window.close{
+  display:none;
+}
+
 .modal-h1{
   margin:0;
   padding:0;

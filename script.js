@@ -9,6 +9,7 @@ const projectBtns = document.querySelectorAll('.card  button')
 const modalBtn = document.querySelector('button.modal-button')
 const modalWindow = document.querySelector('.modal-window')
 const modalHead = document.querySelector('.modal-header')
+const innerModalHeader = document.querySelector('.inner-modal-header')
 const projects = [
   {
     name:'Tonic',
@@ -77,12 +78,15 @@ form.addEventListener('submit', (e) => {
 Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)]
 
-  const modalTitle = createTag('h1')
+ 
+  modalTitle = createTag('h1')
   modalTitle.classList.add('modal-h1')
-  console.log(modalTitle)
   modalTitle.textContent = project.name;
-  modalHead.appendChild(modalTitle)
-  
+  innerModalHeader.appendChild(modalTitle)
+
+
+
+  modalWindow.classList.remove('close')
   
 }));
 
@@ -93,5 +97,8 @@ function createTag(tagname){
 }
 
 modalBtn.addEventListener('click', () => {
-  console.log('modal button clicked')
+  modalWindow.classList.add('close');
+  innerModalHeader.innerHTML = '';
+  
+
 })
