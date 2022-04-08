@@ -603,7 +603,7 @@ button[type="submit"] {
 }
 
 /* modal window styles */
-.modal{
+.modal-window{
   border:1px solid black;
   min-height:20px;
   z-index:5;
@@ -621,6 +621,9 @@ button[type="submit"] {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  outline:1px solid black;
+  padding:0;
+  margin:0;
 
 }
 
@@ -632,4 +635,10 @@ button.modal-button{
   font-weight:lighter;
   color:#67798E;
   background: none;
+  order:2;
+}
+
+.modal-h1{
+  margin:0;
+  padding:0;
 }
