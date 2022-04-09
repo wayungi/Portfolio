@@ -21,8 +21,17 @@ Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () =
 form.addEventListener('submit', (e) => {
   const emailRegex = new RegExp('/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/');
 
-  if (!email.value.match(emailRegex)) {
+  if (emailRegex.test(email)) {
     e.preventDefault();
     errorDiv.innerText = 'Email address must be valid and in lowercase';
   }
 });
+
+
+const emailField = document.querySelector('#email');
+const contactForm = document.querySelector('.form');
+// console.log(contactForm);
+
+contactForm.addEventListener('submit', () => {
+  console.log(contactForm.elements['user_email'])
+})
