@@ -408,6 +408,195 @@ button[type="submit"] {
   margin: 22px 0;
 }
 
+.error {
+  color: rgb(218, 209, 209);
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* modal window styles */
+.modal-window {
+  z-index: 5;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  padding: 10px;
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.modal-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+button.modal-button {
+  border: none;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 32px;
+  font-weight: lighter;
+  color: #67798e;
+  background: none;
+  order: 2;
+  padding-left: 10px;
+}
+
+.modal-window.close {
+  display: none;
+}
+
+.modal-h1 {
+  margin: 0;
+  padding: 0;
+  padding: 0 10px;
+}
+
+.tagline {
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.tagline ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech-list li {
+  list-style: none;
+}
+
+.tagline ul > li {
+  list-style: none;
+}
+
+.tagline a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.bg-dot {
+  padding-left: 20px;
+  padding-right: 5px;
+  background-image: url('images/counter.svg');
+  background-repeat: no-repeat;
+  background-position: top 50% left 5%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.modal-img {
+  margin-bottom: 4px;
+}
+
+.modal-img img {
+  width: 100%;
+}
+
+.description {
+  margin: 12px 0;
+  line-height: 20px;
+  padding: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: inherit;
+  margin-right: 10px;
+}
+
+.technologies {
+  border-bottom: 2px solid #ebecf0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.tech-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech-item a {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: #ebebff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.ext-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+li.ext-item {
+  list-style: none;
+}
+
+.ext-item a {
+  display: inline-block;
+  text-decoration: none;
+  outline: 1px solid blue;
+  padding: 15px 55px 15px 15px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.live a {
+  background-image: url('images/live.svg');
+  margin-right: 10px;
+}
+
+.source a {
+  background-image: url('images/github2.svg');
+}
+
+.source a,
+.live a {
+  background-repeat: no-repeat;
+  background-position: top 50% left 90%;
+}
+
+.blue-bg {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(152, 154, 158, 0.875);
+  pointer-events: none;
+}
+
+.blue-bg.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
 /* Styles for viewports wider than 768 pixels. */
 @media (min-width: 768px) {
   /* hide signal section */
@@ -455,8 +644,6 @@ button[type="submit"] {
   .nav-menu li {
     list-style: none;
     text-decoration: none;
-
-    /* margin:15px; */
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -566,8 +753,70 @@ button[type="submit"] {
     line-height: 52px;
   }
 
-  /* animate logo */
+  /* modal window large screen */
+  .modal-window {
+    max-width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
 
+  .technologies {
+    border-bottom: none;
+  }
+
+  .modal-img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .blue-bg {
+    background-color: rgb(193, 199, 208, 0.5);
+  }
+
+  .blur-effect {
+    filter: blur(4px);
+  }
+
+  .lower-content {
+    min-height: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .modal-aside {
+    width: 40%;
+  }
+
+  .ext-item a {
+    display: inline-block;
+    text-decoration: none;
+    outline: 1px solid blue;
+    padding: 5px 50px 5px 25px;
+    border: 1px solid #6070ff;
+    border-radius: 3px;
+    color: #6070ff;
+    font-size: 12px;
+  }
+
+  .live a {
+    margin-right: 2px;
+  }
+
+  .tech-item a {
+    display: inline-block;
+    padding: 3px 2px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  /* animate logo */
   @keyframes logo-anim {
     from {
       transform: rotate(0deg);
@@ -594,4 +843,9 @@ button[type="submit"] {
     animation-name: logo-anim;
     animation-duration: 2s;
   }
+}
+
+/* prevent page behind modal from scrolling */
+.still {
+  overflow-y: hidden;
 }
