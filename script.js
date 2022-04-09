@@ -2,14 +2,8 @@ const close = document.querySelector('.close');
 const nav = document.querySelector('.nav-holder');
 const navLinks = document.querySelectorAll('.nav-link');
 const hamburger = document.querySelector('.hamburger');
-const form = document.forms['contactForm'];
-// const email = document.querySelector('.email');
+const form = document.forms[0];
 const errorDiv = document.querySelector('.error');
-
-
-console.log(form.elements)
-
-
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
@@ -36,8 +30,4 @@ form.addEventListener('submit', (e) => {
   if (form.reportValidity()) {
     form.submit();
   }
-
 });
-
-
-
