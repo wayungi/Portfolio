@@ -517,8 +517,7 @@ button.modal-button {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: inherit;
-  margin-right:10px;
-  
+  margin-right: 10px;
 }
 
 .technologies {
@@ -763,11 +762,10 @@ li.ext-item {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-   }
+  }
 
-   .technologies {
-    border-bottom:none;
-   
+  .technologies {
+    border-bottom: none;
   }
 
   .modal-img {

@@ -6,14 +6,9 @@ const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorDiv = document.querySelector('.error');
 const projectBtns = document.querySelectorAll('.card  button');
-//const modalBtn = document.querySelector('button.modal-button');
-// const modalWindow = document.querySelector('.modal-window');
-// const innerModalHeader = document.querySelector('.inner-modal-header');
-// const modalBody = document.querySelector('.modal-body');
 const overlay = document.querySelector('.blue-bg');
 const docBody = document.querySelector('body');
 const pageWrapper = document.querySelector('.page-wrapper');
-
 
 const projects = [
   {
@@ -74,26 +69,18 @@ function createTagWithAttributeOnly(tagName, [attribute, value]) {
 
 const modalWindow = createTag('div');
 modalWindow.classList.add('modal-window');
-
 const modalHeader = createTag('div');
 modalHeader.classList.add('modal-header');
-
 const innerModalHeader = createTag('div');
 innerModalHeader.classList.add('inner-modal-header');
 
-//cretae the buttton here
+//  cretae the buttton here
 const modalBtn = createTag('button');
 modalBtn.classList.add('modal-button');
 modalBtn.type = 'button';
-modalBtn.innerHTML = '&times;'
-
-
+modalBtn.innerHTML = '&times;';
 const modalBody = createTag('div');
 modalBody.classList.add('modal-body');
-
-
-
-
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
@@ -117,13 +104,9 @@ form.addEventListener('submit', (e) => {
 
 Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)];
-
-
   modalWindow.appendChild(modalHeader);
   modalWindow.appendChild(modalBody);
   docBody.appendChild(modalWindow);
-
-
   const modalTitle = createTag('h1');
   modalTitle.classList.add('font');
   modalTitle.classList.add('modal-h1');
