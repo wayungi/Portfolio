@@ -694,7 +694,6 @@ button.modal-button{
 }
 
 .modal-img{
-  outline:1px solid black;
   margin-bottom:4px;
 }
 
@@ -706,8 +705,33 @@ button.modal-button{
   margin:12px 0;
   line-height: 20px;
   padding:10px 0;
-
   font-family: "Poppins", sans-serif; 
   font-style: normal; 
   font-weight: inherit; 
+}
+
+.technologies {
+  border-bottom:2px solid #EBECF0;
+  padding-bottom:15px;
+  margin-bottom:15px;
+
+}
+
+.tech-list{
+  display:flex;
+}
+
+.tech-list li{
+  list-style: none;
+}
+
+.tech-item a{
+  display:inline-block;
+  padding:3px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-right:10px;
+  background-color: #EBEBFF;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }

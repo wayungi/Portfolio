@@ -109,10 +109,32 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   imageDiv.appendChild(imgTag);
   modalBody.appendChild(imageDiv);
 
+  //create the modal paragraph
   const paragraph = createTag('p');
   paragraph.textContent = project.description;
   paragraph.classList.add('description')
   modalBody.appendChild(paragraph);
+
+  //create the technolgy div
+  const techDiv  =  createTag('div');
+  techDiv.classList.add('technologies');
+  const ul2 = createTag('ul');
+  ul2.classList.add('tech-list');
+  const li4 = createTag('li')
+  li4.classList.add('tech-item')
+  const li5 = createTag('li')
+  li5.classList.add('tech-item')
+  const li6 = createTag('li')
+  li6.classList.add('tech-item')
+
+  li4.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[0]]));
+  li5.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[1]]));
+  li6.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[2]]))
+  ul2.appendChild(li4);
+  ul2.appendChild(li5);
+  ul2.appendChild(li6);
+  techDiv.appendChild(ul2);
+  modalBody.appendChild(techDiv);
 
   modalWindow.classList.remove('close');
   
