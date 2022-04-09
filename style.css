@@ -414,199 +414,6 @@ button[type="submit"] {
   margin-top: 5px;
 }
 
-/* Styles for viewports wider than 768 pixels. */
-@media (min-width: 768px) {
-  /* hide signal section */
-  .signal-section {
-    display: none;
-  }
-
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    outline: 1px solid red;
-    height: 80px;
-    align-items: center;
-    padding: 0 100px;
-    background: #fff;
-  }
-
-  .close,
-  .hamburger {
-    display: none;
-  }
-
-  .nav-holder {
-    display: block;
-    position: relative;
-    width: fit-content;
-    height: auto;
-    background-color: #fff;
-    padding-left: 0;
-  }
-
-  /* for all a tags */
-  a {
-    text-decoration: none;
-  }
-
-  .nav-item a {
-    color: #344563;
-  }
-
-  .nav-menu {
-    display: flex;
-  }
-
-  .nav-menu li {
-    list-style: none;
-    text-decoration: none;
-
-    /* margin:15px; */
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .introduction {
-    padding: 150px 164px 250px 164px;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    transition: all 1s ease-in-out 0.2s;
-  }
-
-  .card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 5px 1px #666a70;
-  }
-
-  .txt-content {
-    box-sizing: border-box;
-    padding: 0 24px;
-  }
-
-  .re-order {
-    order: 1;
-  }
-
-  .card-1 {
-    grid-row: 4/3;
-  }
-
-  .card-2 {
-    grid-row: 5/4;
-  }
-
-  .card-3 {
-    grid-row: 2/1;
-  }
-
-  .card-4 {
-    grid-row: 3/2;
-  }
-
-  .card:nth-child(4) {
-    margin-bottom: 88px !important;
-  }
-
-  .card:nth-child(2n) {
-    margin-bottom: 0;
-  }
-
-  .about-me {
-    flex-direction: row;
-    border-top-right-radius: 70px;
-  }
-
-  .about-me-text {
-    padding-right: 30px;
-  }
-
-  .background-one {
-    background-image: none;
-  }
-
-  .nested {
-    flex-direction: row;
-  }
-
-  .nested a {
-    height: 90px;
-    width: 10px;
-    line-height: 130px;
-    padding: 20px 90px 0 10px;
-    margin: 10px;
-  }
-
-  button[type="submit"] {
-    margin: 22px auto 44px auto;
-  }
-
-  input,
-  textarea {
-    width: 500px;
-  }
-
-  .works {
-    padding: 114px 10%;
-  }
-
-  .img-content {
-    width: 100%;
-    height: 100%;
-  }
-
-  .card-partition img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .card-partition h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  /* animate logo */
-
-  @keyframes logo-anim {
-    from {
-      transform: rotate(0deg);
-    }
-
-    33% {
-      color: #c42c91;
-    }
-
-    50% {
-      color: #6070ff;
-    }
-
-    66% {
-      color: #c42c91;
-    }
-
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .logo-ph {
-    animation-name: logo-anim;
-    animation-duration: 2s;
-  }
-}
-
-/* prevent page behind modal from scrolling */
-.still{
-  overflow-y:hidden;
-}
-
 /* modal window styles */
 .modal-window{
   z-index:5;
@@ -624,7 +431,6 @@ button[type="submit"] {
   box-sizing:border-box;
   padding:10px;
   max-height: 700px;
-  overflow-y: scroll;
 }
 
 .modal-header{
@@ -788,3 +594,207 @@ li.ext-item{
   pointer-events: all;
   opacity:1;
 }
+
+/* Styles for viewports wider than 768 pixels. */
+@media (min-width: 768px) {
+  /* hide signal section */
+  .signal-section {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid red;
+    height: 80px;
+    align-items: center;
+    padding: 0 100px;
+    background: #fff;
+  }
+
+  .close,
+  .hamburger {
+    display: none;
+  }
+
+  .nav-holder {
+    display: block;
+    position: relative;
+    width: fit-content;
+    height: auto;
+    background-color: #fff;
+    padding-left: 0;
+  }
+
+  /* for all a tags */
+  a {
+    text-decoration: none;
+  }
+
+  .nav-item a {
+    color: #344563;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    list-style: none;
+    text-decoration: none;
+
+    /* margin:15px; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .introduction {
+    padding: 150px 164px 250px 164px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    transition: all 1s ease-in-out 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 1px #666a70;
+  }
+
+  .txt-content {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  .re-order {
+    order: 1;
+  }
+
+  .card-1 {
+    grid-row: 4/3;
+  }
+
+  .card-2 {
+    grid-row: 5/4;
+  }
+
+  .card-3 {
+    grid-row: 2/1;
+  }
+
+  .card-4 {
+    grid-row: 3/2;
+  }
+
+  .card:nth-child(4) {
+    margin-bottom: 88px !important;
+  }
+
+  .card:nth-child(2n) {
+    margin-bottom: 0;
+  }
+
+  .about-me {
+    flex-direction: row;
+    border-top-right-radius: 70px;
+  }
+
+  .about-me-text {
+    padding-right: 30px;
+  }
+
+  .background-one {
+    background-image: none;
+  }
+
+  .nested {
+    flex-direction: row;
+  }
+
+  .nested a {
+    height: 90px;
+    width: 10px;
+    line-height: 130px;
+    padding: 20px 90px 0 10px;
+    margin: 10px;
+  }
+
+  button[type="submit"] {
+    margin: 22px auto 44px auto;
+  }
+
+  input,
+  textarea {
+    width: 500px;
+  }
+
+  .works {
+    padding: 114px 10%;
+  }
+
+  .img-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-partition img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-partition h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  /* modal window large screen */
+  .modal-window{
+    max-width:80%;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;;
+  }
+
+  /* animate logo */
+
+  @keyframes logo-anim {
+    from {
+      transform: rotate(0deg);
+    }
+
+    33% {
+      color: #c42c91;
+    }
+
+    50% {
+      color: #6070ff;
+    }
+
+    66% {
+      color: #c42c91;
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo-ph {
+    animation-name: logo-anim;
+    animation-duration: 2s;
+  }
+}
+
+/* prevent page behind modal from scrolling */
+.still{
+  overflow-y:hidden;
+}
+
