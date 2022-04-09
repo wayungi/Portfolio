@@ -12,15 +12,15 @@ const cardSection = document.querySelector('.works');
 
 const projects = [
   {
-    cardClass:['card-1', 'card'],
-    cardImg:['card-partition', 'img-content'],
-    imgDetails:['images/portfolio1.svg', 'The first page of the tonic project'],
-    articleClassList:['card-partition', 'txt-content'],
+    cardClass: ['card-1', 'card'],
+    cardImg: ['card-partition', 'img-content'],
+    imgDetails: ['images/portfolio1.svg', 'The first page of the tonic project'],
+    articleClassList: ['card-partition', 'txt-content'],
     h2TitleClass: ['font'],
     name: 'Tonic',
-    canopyClass:['title', 'font', 'no-image'],
+    canopyClass: ['title', 'font', 'no-image'],
     tagline: ['CANOPY', 'Back EndDev', '2015'],
-    p:' A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    p: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'images/portfolio1.svg',
     technologies: ['html', 'css', 'javascript'],
@@ -28,12 +28,12 @@ const projects = [
     source: 'https://github.com/wayungi/Portfolio',
   },
   {
-    cardClass:['card-2', 'card'],
-    cardImg:['card-partition', 're-order', 'img-content'],
-    imgDetails:['images/portfolio2.svg', 'The first page of mutli-post stories website'],
-    articleClassList:['card-partition', 'txt-content'],
+    cardClass: ['card-2', 'card'],
+    cardImg: ['card-partition', 're-order', 'img-content'],
+    imgDetails: ['images/portfolio2.svg', 'The first page of mutli-post stories website'],
+    articleClassList: ['card-partition', 'txt-content'],
     h2TitleClass: ['font'],
-    canopyClass:['title', 'font'],
+    canopyClass: ['title', 'font'],
     name: 'Multi-Post Stories',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -43,12 +43,12 @@ const projects = [
     source: 'https://github.com/wayungi/Portfolio',
   },
   {
-    cardClass:['card-3', 'card'],
-    cardImg:['card-partition', 'img-content'],
-    imgDetails:['images/portfolio3.svg', 'The first page of the Tonic project'],
-    articleClassList:['card-partition', 'txt-content'],
+    cardClass: ['card-3', 'card'],
+    cardImg: ['card-partition', 'img-content'],
+    imgDetails: ['images/portfolio3.svg', 'The first page of the Tonic project'],
+    articleClassList: ['card-partition', 'txt-content'],
     h2TitleClass: ['font'],
-    canopyClass:['title', 'font', 'no-image'],
+    canopyClass: ['title', 'font', 'no-image'],
     name: 'Tonic',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -58,12 +58,12 @@ const projects = [
     source: 'https://github.com/wayungi/Portfolio',
   },
   {
-    cardClass:['card-4', 'card'],
-    cardImg:['card-partition', 're-order', 'img-content'],
-    imgDetails:['images/portfolio4.svg', 'The page of the multi-post stories project'],
-    articleClassList:['card-partition', 'txt-content'],
+    cardClass: ['card-4', 'card'],
+    cardImg: ['card-partition', 're-order', 'img-content'],
+    imgDetails: ['images/portfolio4.svg', 'The page of the multi-post stories project'],
+    articleClassList: ['card-partition', 'txt-content'],
     h2TitleClass: ['font'],
-    canopyClass:['title', 'font'],
+    canopyClass: ['title', 'font'],
     name: 'Multi-Post Stories',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -93,22 +93,22 @@ function createTagWithAttributeOnly(tagName, [attribute, value]) {
 }
 
 //  create an image tag with src & alt values
-function createImgTag([srcValue, altvalue]){
+function createImgTag([srcValue, altvalue]) {
   const imgTag = document.createElement('img');
   imgTag.setAttribute('src', srcValue);
   imgTag.setAttribute('alt', altvalue);
   return imgTag;
 }
 
-function createLink(linkText, href){
+function createLink(linkText, href) {
   const a = document.createElement('a');
   a.textContent = linkText;
   a.setAttribute('href', href);
   return a;
 }
 
-function createCard(projects, index){
-  //create outer div for a card
+function createCard(projects, index) {
+  //  create outer div for a card
   const card = createTag('div');
   card.classList.add(...projects[index].cardClass);
 
@@ -117,26 +117,26 @@ function createCard(projects, index){
   card.appendChild(cardImg);
 
   // create the project image tag
-  const imgTag = createImgTag([projects[index].imgDetails[0], projects[index].imgDetails[1]])
+  const imgTag = createImgTag([projects[index].imgDetails[0], projects[index].imgDetails[1]]);
   cardImg.appendChild(imgTag);
 
-  //create the article
+  //  create the article
   const article = createTag('article');
   article.classList.add(...projects[index].articleClassList);
   card.appendChild(article);
 
-  // create title
+  //  create title
   const h2Title = createTag('h2');
   h2Title.classList.add(...projects[index].h2TitleClass);
   h2Title.textContent = projects[index].name;
   article.appendChild(h2Title);
 
-  //create options div
-  const options =  createTag('div');
+  //  create options div
+  const options = createTag('div');
   options.classList.add('options');
   article.appendChild(options);
 
-  //create options link;
+  //  create options link;
   const link1 = createLink('CANOPY', '#');
   link1.classList.add(...projects[index].canopyClass);
   options.appendChild(link1);
@@ -149,7 +149,7 @@ function createCard(projects, index){
   link3.classList.add('role-year', 'font');
   options.appendChild(link3);
 
-  //create paragraph and append to article
+  //  create paragraph and append to article
   const p = createTag('p');
   p.classList.add('font');
   p.textContent = projects[index].p;
@@ -159,28 +159,25 @@ function createCard(projects, index){
   langDiv.classList.add('language');
   article.appendChild(langDiv);
 
-  //create languge div links
-  const link4 = createLink('html','#');
+  //  create languge div links
+  const link4 = createLink('html', '#');
   link4.classList.add('font');
   langDiv.appendChild(link4);
 
-  const link5 = createLink('css','#');
+  const link5 = createLink('css', '#');
   link5.classList.add('font');
   langDiv.appendChild(link5);
 
-  const link6 = createLink('javascript','#');
+  const link6 = createLink('javascript', '#');
   link6.classList.add('font');
   langDiv.appendChild(link6);
 
-  //create a button
+  //  create a button
   const button = createTag('button');
-  button.type='submit';
+  button.type = 'submit';
   button.name = index;
   button.textContent = 'See Project';
   article.appendChild(button);
-
-  //return card;
-
   cardSection.appendChild(card);
 }
 
@@ -190,21 +187,6 @@ createCard(projects, 2);
 createCard(projects, 3);
 
 const projectBtns = document.querySelectorAll('.card  button');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const modalWindow = createTag('div');
 modalWindow.classList.add('modal-window');

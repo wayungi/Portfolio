@@ -527,7 +527,7 @@ button.modal-button {
 }
 
 .tech-list {
-  margin-top:20px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
