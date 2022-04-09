@@ -141,7 +141,9 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   const ul3 = createTag('ul');
   ul3.classList.add('ext-list');
   const li7 = createTag('li');
+  li7.classList.add('ext-item', 'live')
   const li8 = createTag('li');
+  li8.classList.add('ext-item', 'source')
   li7.appendChild(createTagWithAttribute('a',['href', project.live, 'See live']));
   li8.appendChild(createTagWithAttribute('a',['href', project.source, 'See Source']));
   ul3.appendChild(li7);

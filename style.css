@@ -736,10 +736,36 @@ button.modal-button{
 }
 
 .ext-list{
-  outline:1px solid red;
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom:20px;
+}
 
+li.ext-item{
+  list-style: none;
+}
 
+.ext-item a{
+  display:inline-block;
+  text-decoration: none;
+  outline:1px solid blue;
+  padding: 15px 55px 15px 30px;
+  border:1px solid #6070FF;
+  border-radius: 8px;
+  color:#6070FF;
+}
+
+.live a{
+  background-image:url('images/live.svg');
+}
+
+.source a{
+  background-image: url('images/github2.svg');
+}
+
+.source a, .live a{
+  background-repeat: no-repeat;
+  background-position: top 50% left 90%;
 }
