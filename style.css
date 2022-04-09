@@ -813,11 +813,7 @@ li.ext-item {
     text-decoration: none;
   }
 
-
-
-
   /* animate logo */
-
   @keyframes logo-anim {
     from {
       transform: rotate(0deg);
