@@ -643,8 +643,6 @@ li.ext-item {
   .nav-menu li {
     list-style: none;
     text-decoration: none;
-
-    /* margin:15px; */
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -788,12 +786,10 @@ li.ext-item {
   }
 
   .description {
-    /* outline:1px solid green; */
     width: 60%;
   }
 
   .modal-aside {
-    /* outline:1px solid red; */
     width: 40%;
   }
 
