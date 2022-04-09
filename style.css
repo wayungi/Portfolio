@@ -527,6 +527,7 @@ button.modal-button {
 }
 
 .tech-list {
+  margin-top:20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -797,7 +798,7 @@ li.ext-item {
     display: inline-block;
     text-decoration: none;
     outline: 1px solid blue;
-    padding: 5px 30px 5px 4px;
+    padding: 5px 50px 5px 25px;
     border: 1px solid #6070ff;
     border-radius: 3px;
     color: #6070ff;
@@ -847,11 +848,4 @@ li.ext-item {
 /* prevent page behind modal from scrolling */
 .still {
   overflow-y: hidden;
-}
-
-
-
-.works{
-  outline:1px solid black;
-  margin: 10px 0;
 }
