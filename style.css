@@ -763,6 +763,11 @@ li.ext-item {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
+   }
+
+   .technologies {
+    border-bottom:none;
+   
   }
 
   .modal-img {
