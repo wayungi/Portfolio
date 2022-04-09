@@ -430,6 +430,7 @@ button[type="submit"] {
   box-sizing: border-box;
   padding: 10px;
   max-height: 700px;
+  overflow-y: scroll;
 }
 
 .modal-header {
@@ -516,6 +517,8 @@ button.modal-button {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: inherit;
+  margin-right:10px;
+  
 }
 
 .technologies {
@@ -545,7 +548,7 @@ button.modal-button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
@@ -754,7 +757,7 @@ li.ext-item {
 
   /* modal window large screen */
   .modal-window {
-    max-width: 40%;
+    max-width: 60%;
     position: fixed;
     top: 50%;
     left: 50%;

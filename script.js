@@ -13,11 +13,13 @@ const modalBody = document.querySelector('.modal-body');
 const overlay = document.querySelector('.blue-bg');
 const docBody = document.querySelector('body');
 const pageWrapper = document.querySelector('.page-wrapper');
+
+
 const projects = [
   {
     name: 'Tonic',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'images/portfolio1.svg',
     technologies: ['html', 'css', 'javascript'],
     live: 'https://wayungi.github.io/Portfolio/',
@@ -26,7 +28,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'images/portfolio2.svg',
     technologies: ['html', 'css', 'javascript'],
     live: 'https://wayungi.github.io/Portfolio/',
@@ -35,7 +37,7 @@ const projects = [
   {
     name: 'Tonic',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'images/portfolio3.svg',
     technologies: ['html', 'css', 'javascript'],
     live: 'https://wayungi.github.io/Portfolio/',
@@ -44,7 +46,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     tagline: ['CANOPY', 'Back EndDev', '2015'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups requiredLorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'images/portfolio4.svg',
     technologies: ['html', 'css', 'javascript'],
     live: 'https://wayungi.github.io/Portfolio/',
