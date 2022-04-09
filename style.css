@@ -621,9 +621,10 @@ button[type="submit"] {
   display:flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  outline:1px solid green;
   box-sizing:border-box;
   padding:10px;
+  max-height: 700px;
+  overflow-y: scroll;
 }
 
 .modal-header{
@@ -751,14 +752,16 @@ li.ext-item{
   display:inline-block;
   text-decoration: none;
   outline:1px solid blue;
-  padding: 15px 55px 15px 30px;
-  border:1px solid #6070FF;
+  padding: 15px 55px 15px 15px;
+  border:1px thin #6070FF;
   border-radius: 8px;
   color:#6070FF;
+
 }
 
 .live a{
   background-image:url('images/live.svg');
+  margin-right:10px;
 }
 
 .source a{
@@ -768,4 +771,20 @@ li.ext-item{
 .source a, .live a{
   background-repeat: no-repeat;
   background-position: top 50% left 90%;
+}
+
+.blue-bg{
+  position:fixed;
+  opacity:0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color:rgba(152, 154, 158, 0.875);
+  pointer-events: none;
+}
+
+.blue-bg.active{
+  pointer-events: all;
+  opacity:1;
 }

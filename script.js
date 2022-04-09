@@ -5,12 +5,15 @@ const hamburger = document.querySelector('.hamburger');
 const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorDiv = document.querySelector('.error');
-const projectBtns = document.querySelectorAll('.card  button')
-const modalBtn = document.querySelector('button.modal-button')
-const modalWindow = document.querySelector('.modal-window')
-const modalHead = document.querySelector('.modal-header')
-const innerModalHeader = document.querySelector('.inner-modal-header')
-const modalBody = document.querySelector('.modal-body')
+const projectBtns = document.querySelectorAll('.card  button');
+const modalBtn = document.querySelector('button.modal-button');
+const modalWindow = document.querySelector('.modal-window');
+const modalHead = document.querySelector('.modal-header');
+const innerModalHeader = document.querySelector('.inner-modal-header');
+const modalBody = document.querySelector('.modal-body');
+const overlay = document.querySelector('.blue-bg');
+const docBody = document.querySelector('body')
+console.log(docBody)
 const projects = [
   {
     name:'Tonic',
@@ -155,14 +158,17 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
 
 
 
-
-
+  docBody.classList.add('still');
+  overlay.classList.add('active');
   modalWindow.classList.remove('close');
   
 }));
 
 window.addEventListener('load', () => {
+  overlay.classList.remove('active');
   modalWindow.classList.add('close');
+  docBody.classList.remove('still');
+
 })
 
 function createTag(tagname){
@@ -185,6 +191,9 @@ function createTagWithAttributeOnly(tagName, [attribute, value]){
 
 modalBtn.addEventListener('click', () => {
   modalWindow.classList.add('close');
+  overlay.classList.remove('active');
+  docBody.classList.remove('still');
+
   innerModalHeader.innerHTML = '';
   modalBody.innerHTML = '';
   
