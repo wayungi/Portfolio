@@ -714,7 +714,6 @@ button.modal-button{
   border-bottom:2px solid #EBECF0;
   padding-bottom:15px;
   margin-bottom:15px;
-
 }
 
 .tech-list{
@@ -734,4 +733,13 @@ button.modal-button{
   background-color: #EBEBFF;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+}
+
+.ext-list{
+  outline:1px solid red;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
 }

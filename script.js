@@ -126,7 +126,6 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   li5.classList.add('tech-item')
   const li6 = createTag('li')
   li6.classList.add('tech-item')
-
   li4.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[0]]));
   li5.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[1]]));
   li6.appendChild(createTagWithAttribute('a',['href', '#', project.technologies[2]]))
@@ -135,6 +134,26 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   ul2.appendChild(li6);
   techDiv.appendChild(ul2);
   modalBody.appendChild(techDiv);
+
+  //add see source & live links
+  const extDiv = createTag('div');
+  extDiv.classList.add('ext-div');
+  const ul3 = createTag('ul');
+  ul3.classList.add('ext-list');
+  const li7 = createTag('li');
+  const li8 = createTag('li');
+  li7.appendChild(createTagWithAttribute('a',['href', project.live, 'See live']));
+  li8.appendChild(createTagWithAttribute('a',['href', project.source, 'See Source']));
+  ul3.appendChild(li7);
+  ul3.appendChild(li8);
+  extDiv.appendChild(ul3);
+  modalBody.appendChild(extDiv);
+
+
+
+
+
+
 
   modalWindow.classList.remove('close');
   
