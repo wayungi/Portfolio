@@ -701,3 +701,13 @@ button.modal-button{
 .modal-img img{
   width:100%;
 }
+
+.description{
+  margin:12px 0;
+  line-height: 20px;
+  padding:10px 0;
+
+  font-family: "Poppins", sans-serif; 
+  font-style: normal; 
+  font-weight: inherit; 
+}

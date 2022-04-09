@@ -100,18 +100,21 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   ul.appendChild(li1);
   ul.appendChild(li2);
   ul.appendChild(li3);
-  taglineDiv.appendChild(ul)
+  taglineDiv.appendChild(ul);
   modalBody.appendChild(taglineDiv);
 
-  const imageDiv = createTag('div')
-  imageDiv.classList.add('modal-img')
-  const imgTag = createTagWithAttributeOnly('img', ['src',project.featuredImage])
-  imageDiv.appendChild(imgTag)
-  modalBody.appendChild(imageDiv)
+  const imageDiv = createTag('div');
+  imageDiv.classList.add('modal-img');
+  const imgTag = createTagWithAttributeOnly('img', ['src',project.featuredImage]);
+  imageDiv.appendChild(imgTag);
+  modalBody.appendChild(imageDiv);
 
-  const paragraph = createTag('p')
+  const paragraph = createTag('p');
+  paragraph.textContent = project.description;
+  paragraph.classList.add('description')
+  modalBody.appendChild(paragraph);
 
-  modalWindow.classList.remove('close')
+  modalWindow.classList.remove('close');
   
 }));
 
