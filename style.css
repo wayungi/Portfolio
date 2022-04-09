@@ -525,6 +525,8 @@ button.modal-button{
 
 .tech-list{
   display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .tech-list li{
@@ -545,7 +547,7 @@ button.modal-button{
 .ext-list{
   display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom:20px;
 }
@@ -755,13 +757,68 @@ li.ext-item{
 
   /* modal window large screen */
   .modal-window{
-    max-width:80%;
+    max-width:40%;
     position:fixed;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;;
+    border-radius: 5px;
   }
+
+  .modal-img{
+    max-width:100%;
+    margin:0 auto;
+  }
+
+  .blue-bg{
+    background-color: rgb( 	193, 199, 208, .5);
+  }
+
+  .blur-effect{
+    filter:blur(4px);
+  }
+
+  .lower-content{
+    min-height: 20px;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .description{
+    /* outline:1px solid green; */
+    width:60%
+  }
+
+  .modal-aside{
+    /* outline:1px solid red; */
+    width:40%;
+  }
+
+  .ext-item a{
+    display:inline-block;
+    text-decoration: none;
+    outline:1px solid blue;
+    padding: 5px 30px 5px 4px;
+    border:1px thin #6070FF;
+    border-radius: 3px;
+    color:#6070FF;
+    font-size: 12px;
+  
+  }
+
+  .live a{
+    margin-right:2px;
+  }
+
+  .tech-item a{
+    display:inline-block;
+    padding:3px 2px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  
+
 
   /* animate logo */
 

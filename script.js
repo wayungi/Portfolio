@@ -12,7 +12,8 @@ const modalHead = document.querySelector('.modal-header');
 const innerModalHeader = document.querySelector('.inner-modal-header');
 const modalBody = document.querySelector('.modal-body');
 const overlay = document.querySelector('.blue-bg');
-const docBody = document.querySelector('body')
+const docBody = document.querySelector('body');
+const pageWrapper = document.querySelector('.page-wrapper');
 console.log(docBody)
 const projects = [
   {
@@ -112,12 +113,21 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   imageDiv.appendChild(imgTag);
   modalBody.appendChild(imageDiv);
 
+  const lowerContentDiv = createTag('div');
+  lowerContentDiv.classList.add('lower-content');
+  modalBody.appendChild(lowerContentDiv);
+
+
+
   //create the modal paragraph
   const paragraph = createTag('p');
   paragraph.textContent = project.description;
-  paragraph.classList.add('description')
-  modalBody.appendChild(paragraph);
+  paragraph.classList.add('description');
+  lowerContentDiv.appendChild(paragraph);
 
+  const asideContentDiv = createTag('div');
+  asideContentDiv.classList.add('modal-aside');
+  
   //create the technolgy div
   const techDiv  =  createTag('div');
   techDiv.classList.add('technologies');
@@ -136,7 +146,7 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   ul2.appendChild(li5);
   ul2.appendChild(li6);
   techDiv.appendChild(ul2);
-  modalBody.appendChild(techDiv);
+  asideContentDiv.appendChild(techDiv);
 
   //add see source & live links
   const extDiv = createTag('div');
@@ -152,14 +162,14 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
   ul3.appendChild(li7);
   ul3.appendChild(li8);
   extDiv.appendChild(ul3);
-  modalBody.appendChild(extDiv);
+  asideContentDiv.appendChild(extDiv);
+  lowerContentDiv.appendChild(asideContentDiv);
 
 
-
-
-
+  // class additions and removals
   docBody.classList.add('still');
   overlay.classList.add('active');
+  pageWrapper.classList.add('blur-effect');
   modalWindow.classList.remove('close');
   
 }));
@@ -167,6 +177,7 @@ Array.from(projectBtns).forEach((projectBtn) =>projectBtn.addEventListener('clic
 window.addEventListener('load', () => {
   overlay.classList.remove('active');
   modalWindow.classList.add('close');
+  pageWrapper.classList.remove('blur-effect');
   docBody.classList.remove('still');
 
 })
@@ -192,6 +203,7 @@ function createTagWithAttributeOnly(tagName, [attribute, value]){
 modalBtn.addEventListener('click', () => {
   modalWindow.classList.add('close');
   overlay.classList.remove('active');
+  pageWrapper.classList.remove('blur-effect');
   docBody.classList.remove('still');
 
   innerModalHeader.innerHTML = '';
