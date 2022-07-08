@@ -3,7 +3,7 @@
 
 #  Portfolio
 
-> This repositiory is for a Portfolio project
+> This is a portfolio site for a web developer listing some of the projects the developers has worked on. The site is built in HTML, CSS.
 
 
 
